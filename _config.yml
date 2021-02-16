@@ -13,19 +13,19 @@ repository: drummondlab/drummondlab.github.io
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Drummond Lab
-tagline: Molecular basis of cellular sensing and responses
+title : Navish Wadhwa
+tagline: Mechanobiology of bacteria
 institution:
-  url: http://www.uchicago.edu
-  name: The University of Chicago
+  url: http://www.harvard.edu
+  name: Harvard University
 department:
-  url: http://bmb.uchospitals.edu
-  name: Biochemistry & Molecular Biology
+  url: https://www.mcb.harvard.edu
+  name: Molecular and Cellular Biology
 author :
-  name : D. Allan Drummond
-  email : dadrummond@uchicago.edu
-  github : dad
-  twitter : dallandrummond
+  name : Navish Wadhwa
+  email : navish_wadhwa@fas.harvard.edu
+  github : navishwadhwa
+  twitter : NavishWadhwa
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -36,7 +36,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://drummondlab.org
+production_url : navishwadhwa.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -111,7 +111,7 @@ JB :
   analytics :
     provider : google
     google : 
-      tracking_id : 'UA-62008526-1'
+      tracking_id : ''
     getclicky :
       site_id : 
     mixpanel :
