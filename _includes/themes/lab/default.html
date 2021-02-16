@@ -93,7 +93,12 @@
           {% assign pages_list = (site.pages | sort: 'navorder') %}
           {% assign group = 'navigation' %}
           {% include JB/pages_list %}
-          <li class="dropdown nav navbar-nav">
+          
+<!--Uncomment below if you want a dropdown menu in the header navigation. 
+  Pages to include should be assigned group: navigation-->
+
+          <!--
+            <li class="dropdown nav navbar-nav">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
               More <span class="caret"></span>
             </a>
@@ -103,7 +108,8 @@
               {% assign group = 'subnavigation' %}
               {% include JB/pages_list %}
             </ul>
-            </li>
+            </li> 
+          -->
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>
