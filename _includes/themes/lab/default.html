@@ -83,7 +83,7 @@
           {% assign make_title = true %}
           {% for pc in page.categories %}
             {% if pc == "home" %}
-             {% assign make_title = false %}
+             {% assign make_title = true %} <!--Change to false if don't want site title on home page-->
             {% endif %}
           {% endfor %}
           {% if make_title == true %}
