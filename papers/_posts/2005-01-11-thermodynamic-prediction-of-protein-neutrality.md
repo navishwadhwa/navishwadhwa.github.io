@@ -1,28 +1,28 @@
 ---
 layout: paper
-title: "Thermodynamic prediction of protein neutrality"
-year: "2005"
-shortref: "Bloom et al. PNAS 2005"
-nickname: thermodynamic-prediction
-journal: "Proc. Nat'l. Acad. Sci. USA"
-volume: 102
-issue: 3
-pages: 606--11
-authors: "Bloom JD, Silberg JJ, Wilke CO, Drummond DA, Adami C, Arnold FH"
+title: "A boundary element model of multiple microcirculatory bubbles in cardiovasculature"
+year: "2010"
+shortref: "Wadhwa et al. IJEMFS 2010"
+nickname: BEM-model
+journal: "International Journal of Emerging Multidisciplinary Fluid Sciences"
+volume: 2
+issue: 2-3
+pages: 143-160
+authors: "Wadhwa N, Jain V, Fowlkes JB, Bull JL, Eshpuniyani B"
 image: /assets/images/papers/default-paper.svg
 pdf: 
-pdflink: http://www.pnas.org/content/102/3/606.full.pdf
+pdflink: 
 github: 
-pmid: 15644440
-pmcid: PMC545518
-f1000: http://f1000.com/prime/1030269
+pmid: 
+pmcid: 
+f1000: 
 figshare: 
-doi: 10.1073/pnas.0406744102
+doi: 
 category: paper
 published: true
 peerreview: true
 review: false
-tags: [stability, neutrality, lattice model, protein]
+tags: [microbubbles, CFD, BEM]
 ---
 {% include JB/setup %}
 
