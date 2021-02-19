@@ -20,7 +20,7 @@ f1000:
 figshare: 
 doi: 10.1101/2021.01.19.427295
 category: paper
-published: false
+published: true
 peerreview: false
 review: false
 tags: [bacterial motility, flagellar motor, self-assembly, molecular motors, Escherichia col]
