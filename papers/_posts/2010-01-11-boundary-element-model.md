@@ -2,7 +2,7 @@
 layout: paper
 title: "A boundary element model of multiple microcirculatory bubbles in cardiovasculature"
 year: "2010"
-shortref: "Wadhwa et al. IJEMFS 2010"
+shortref: "Wadhwa et al. <i>IJEMFS</i> 2010"
 nickname: BEM-model
 journal: "International Journal of Emerging Multidisciplinary Fluid Sciences"
 volume: 2
