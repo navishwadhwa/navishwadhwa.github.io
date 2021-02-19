@@ -2,7 +2,7 @@
 layout: paper
 title: "Noncoalescence in the oblique collision of fluid jets"
 year: "2013"
-shortref: "Wadhwa Vlachos and Jung, <i>Phys Rev Lett</i> 2013"
+shortref: "Wadhwa, Vlachos, and Jung, <i>Phys Rev Lett</i> 2013"
 nickname: non-coelescence-oblique-jets
 journal: "Phys Rev Lett"
 volume: 110
