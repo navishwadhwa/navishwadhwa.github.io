@@ -35,7 +35,7 @@
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-file-text-o fa-fw"></i>			
-			<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+			<a class="off" href="{{ member.cv }}" target="_blank">{{ member.cv | split: '/' | last }}</a>
 		</div>		
 		<div class="bigspacer"></div>		
 		{% endif %}	  		
@@ -46,7 +46,7 @@
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-twitter fa-fw"></i>
-			<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
+			<a class="off" href="https://twitter.com/{{ member.twitter }} " target="_blank">{{ member.twitter }}</a>
 		</div>		
 		<div class="bigspacer"></div>				
 		{% endif %}	
@@ -57,7 +57,7 @@
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-github-alt fa-fw"></i>
-			<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
+			<a class="off" href="https://github.com/{{ member.github }}" target="_blank">{{ member.github }}</a>
 		</div>		
 		<div class="bigspacer"></div>	
 		{% endif %}		
@@ -68,7 +68,7 @@
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-book fa-fw"></i>
-			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }&sortby=pubdate}">{{ member.title }}</a>
+			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}&sortby=pubdate" target="_blank">{{ member.title }}</a>
 		</div>		
 		<div class="bigspacer"></div>	
 		{% endif %}				   	
@@ -106,7 +106,7 @@
 					{% if paper.embargo %}
 					<p>{{ paper.title }}
 					{% else %}
-					<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+					<p><a href="{{ paper.url }}" class="off" target="_blank">{{ paper.title }}</a>
 					{% endif %}
 				{% endif %}
 			{% endfor %}
@@ -124,7 +124,7 @@
 			<div class="spacer"></div>
 			{% for post in site.categories.blog %}
 				{% if member.handle == post.author_handle %}
-					<p><a href="{{ post.url }}" class="off">{{ post.title }}</a>
+					<p><a href="{{ post.url }}" class="off" target="_blank">{{ post.title }}</a>
 				{% endif %}
 			{% endfor %}
 		{% endif %}	
