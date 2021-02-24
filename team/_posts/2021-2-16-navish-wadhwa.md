@@ -3,7 +3,7 @@ layout: member
 title: "Navish Wadhwa"
 position: Postdoctroral Fellow
 nickname: Navish
-handle: nw
+handle: navish
 email: navish_wadhwa@fas.harvard.edu
 twitter: NavishWadhwa
 github: navishwadhwa
