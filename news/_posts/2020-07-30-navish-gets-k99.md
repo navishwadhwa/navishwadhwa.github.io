@@ -2,7 +2,7 @@
 layout: news
 title: "K99/R00 approved"
 author: "Navish Wadhwa"
-author_handle: "nw"
+author_handle: "navish"
 image: /assets/images/news/grant-money.jpg
 category: news
 tags: [grants]
