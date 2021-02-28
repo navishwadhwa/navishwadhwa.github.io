@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Sticking together to survive stress"
+title: "Gene regulation dynamics in single bacterial cells"
 description: ""
-author: "D. Allan Drummond"
-author_handle: dad
+author: "Navish Wadhwa"
+author_handle: navish
 category: blog
 published: true
 theme: lab
@@ -11,90 +11,28 @@ tags: []
 ---
 {% include JB/setup %}
 
-We've just published a [paper][1] on how a protein's ability to form hydrogels allows cells to sense and respond to stress.
+This post first appeared on the [blog of Biophysical Society][1]. This was part 2 of a 3-part series of blogs that I wrote about my favorite Biophysical Journal papers of 2019. You can read part 1 [here][3]. 
 
-### A bit of background
+### Gene regulation dynamics in single bacterial cells
+Uphoff, S. (2019). A quantitative model explains single-cell dynamics of the adaptive response in Escherichia coli. *Biophysical journal*, 117(6), 1156-1165.
+[*link to article*][2]
 
-Like us, cells react to stresses like heat, starvation, and poison. All these stresses cause clumps of molecules to form inside cells. This clumping---aggregation---looks like damaged proteins sticking together. But in our last [paper][agg], we showed that instead, these clumps look like they're a cellular response, not just signs of damage. (See our [blog post][agg-blog] on it.)
+Every living organism has three core missions in life – eat, survive, and reproduce. All these missions require the organism to interact with its environment at some level. The organism must continuously collect information from the environment – about resources, threats, mates – and respond in real time. The right response, be it timing, magnitude, or type, is critical for the organism’s success.
 
-We're going to go back to the Cellular Institute with its manicured grounds and main building. Happy workers (proteins) go about their often inscrutable business.
+Very often, especially for unicellular organisms like bacteria, the response comes in the form of gene expression. The cell constantly monitors its internal state as well as the external environment. For example, in the presence of a new food source, the cell can turn on genes that allow it to consume the new food source. Similarly, if the cell senses a threat, say a chemical that causes DNA damage, it turns on genes that neutralize the threat and/or undo the damage.
 
-<p align="center">
-<img src="/assets/images/cellular-institute-unstressed.png" width="50%">
-</p>
+While the big picture for gene expression is relatively easy to grasp, the real-world cases are often much more complicated. The expression of specific genes is often controlled by several competing factors, each of which in turn interacts with several different genes and proteins. This results in a complex web of interactions, often making it very challenging to understand and model the expression of single genes. Moreover, gene expression in itself isn’t sufficient for the cell to mount a response to a change in the environment. The transcribed RNA, in most cases, must be translated into a protein that carries out the function that forms the response. These complexities mean that in practice, it is not that likely to find a cellular process that can be described by only a few interacting parts in a way that is easily understood.
 
-The Institute is constantly dealing with awful changes in its environment. The mission is to survive, even to keep growing, during those tough times.
+It is for this reason that it was a great pleasure to read the paper by Uphoff, which reports a simple model for the response of Escherichia coli to the DNA modifying methylation agent methyl methane-sulfonate (MMS). Indiscriminate alkylation of DNA has several negative effects, including problems associated with transcription, replication, as well as mutations. Bacteria must therefore react as soon as DNA methylation is detected. E. coli reacts through a protein called Ada, which repairs DNA methylation by transferring the methyl groups on to itself. The beauty of this response is that methylated Ada then activates its own transcription, leading to a positive feedback loop that increases the levels of Ada in the cell in the presence of methylation agents.
 
-<p align="center">
-<img src="/assets/images/environmental-and-growth-reports.png" width="50%">
-</p>
+Uphoff wrote down a simple model for this process. The cell produces Ada at a small basal rate, which gets methylated in the presence of a methylation agent like MMS and activates the transcription of the Ada gene. Methylated Ada (meAda) can be inactivated (inAda) by proteolysis or other mechanisms and both Ada and meAda get diluted as the cell grows and divides. That’s it. The model can be written down as three coupled differential equations, one each for Ada, meAda, and inAda. Solving these equations for a given amount of MMS (which determines the rate of methylation of Ada to meAda) gives the total amount of Ada in the cell as a function of time, as well as the three individual species.
 
-The picture that came out of our [earlier study][agg-blog] suggested that, overall, the clumping in cells was an organized, reversible process, consistent with a coordinated effort to survive tough times.
+What’s even more remarkable is how well the model works. A single set of parameters obtained by fitting the steady state Ada response to varying MMS concentrations reproduced the whole family of response curves, including their time dependence. Even more instructive are the stochastic simulations of how single cells respond to MMS exposure. The noisy, seemingly random responses of individual cell in the simulations average out to produce the same clean curve produced by the coupled equations. This, to me, is a great demonstration of the power of differential equations even in cases when they are representing inherently stochastic processes.
 
-But what about for specific proteins? How can you tell if clumping is stress-inflicted damage or an adaptive response? A key test is to see what happens when you stop the clumping during stress. Stopping damage during stress should make cells healthier. Stopping an adaptive stress response, on the other hand, would make cells sicker.
+The model also allowed Uphoff to rationalize a seemingly puzzling observation. Experiments had shown that even in the presence of high amounts of MMS, a subpopulation of cells did not show any response or had a long delay in the response. The solution to this puzzle might already be evident to many readers. Since the basal level of Ada production is small, many cells have no Ada molecules to initiate a response to DNA methylation. This subpopulation of cells simply must wait for the synthesis of the first Ada molecule, with the waiting times distributed exponentially as in a Poisson process. Uphoff confirmed this by comparing his simulations with the experimental observations of response times delay. 
 
-### Doesn't sound too complicated
+Finally, this work is also a great reminder of bacteria as a powerful model to study biology. Being “simpler” than their eukaryotic relatives, bacteria are a treasure trove of fundamental cellular processes that can be quantified and understood with mathematical precision. This gives us scientists a rare opportunity to truly and deeply understand the building blocks of life.
 
-Easy for you to say, headline! In our study, we had to first find a protein that formed clumps during stress, then figure out how to control its clumping without screwing up a bunch of other stuff (which involved quite a bit of figuring out why it formed clumps, physically, and which bits of the molecule were responsible). 
-
-Doing all that required working on the protein in isolation in a test tube, so then we had to put the protein back into cells  to see if it worked the same way. Finally, we could expose those cells to stress and see how they responded.
-
-### What did we do?
-
-We picked out a specific protein that formed clumps during stress: poly(A)-binding protein, which is nicknamed Pab1 in baker's yeast, our beautiful and hardy model organism. (Relatives of Pab1 are found in essentially every cell that has a nucleus, from plants to parasites to people.) We purified Pab1, put it in a dish, and exposed it to the same intracellular conditions that follow stress and are thought to cause clumping, heat and pH. 
-
-Yeast cells like to live in acidic (low-pH) environments, but keep their insides at neutral pH. When cells get stressed, their internal pH drops, becoming more acidic. That, others have argued, might cause clumping during non-heat stresses like starvation.
-
-
-<p align="center">
-<img src="/assets/images/heat-starvation-ph-at-cell-institute.png" width="75%">
-</p>
-
-### What did we find?
-
-First, we discovered that Pab1 "clumping" was something rather specific and wonderful: **phase separation** into hydrogel droplets.
-
-Phase separation is like a flash mob. Under certain conditions, suddenly, from a mixture of two types of molecules, one type surges together, separating from the other ("demixing") like oil droplets from water. Bunches of recent studies have shown proteins doing this trick, usually under exotic conditions.
-
-<p align="center">
-<img src="/assets/images/phase-separation-cartoon.png" width="75%">
-</p>
-
-Pab1 phase-separates in response to both pH and temperature, right at the stress-associated ranges of each one. It's one of the coolest results in the paper: Pab1 is an extraordinarily sensitive *sensor of stress*, particularly temperature. You might be surprised to know that how yeast cells sense temperature has been a bit of mystery...
-
-### Back into the cell
-
-We figured out a way to make Pab1 phase separate at lower or higher temperatures. Remember our key test? That let us make cells with proteins that couldn't get together during stress. And guess what we found?
-
-<p align="center">
-<img src="/assets/images/disrupting-phase-separation.png" width="75%">
-</p>
-
-Cells with Pab1 molecules that didn't stick together during stress couldn't grow during stress. This happened during heat shock, and during starvation, too!
-
-### Ultimately, it's about fitness
-
-There's been a bunch of beautiful work on phase separation, hydrogel formation, and other quinary phenomena. (**Quinary**, a term introduced by Stuart Edelstein, refers to a step beyond traditional quaternary structures to structures involving undefined numbers of molecules.) But showing that these phenomena are actually good for cells, as opposed to just gorgeous curiosities, has been challenging. Pab1 delivered for us!
-
-<p align="center">
-<img src="/assets/images/quinary-academy-certificate.png" width="75%">
-</p>
-
-
-### Dive in!
-
-This [paper][1] was five years from initial discovery to publication. There's a lot in there (though the reviewers wanted oh so much more!). For experts, our results are full of surprises. First author [Josh] has blogged about some of the [biophysical aspects] and co-first author [Chris] has blogged about the [in vivo aspects].
-
-And there's much more to do. How, exactly, does Pab1's phase separation help the cell? We share some ideas in the paper. How, exactly, does Pab1 sense temperature and pH? Watch this space as the story continues to, well, come together.
-
-[1]: /papers/paper/adaptive-phase-separation
-[agg]: /papers/paper/endogenous-aggregates
-[agg-blog]: /blog/about-endogenous-aggregates
-[Josh]: /team/josh-riback
-[biophysical aspects]: /blog/polymer-biophysics-in-action
-[Chris]: /team/chris-katanski
-[in vivo aspects]: /blog/Pab1-Demixing-FAQ
-
-
-
-
+[1]: https://www.biophysics.org/blog/my-favorite-biophysical-journal-papers-of-2019-part-2
+[2]: https://www.sciencedirect.com/science/article/pii/S0006349519306940
+[3]: /blog/the-mechanics-of-the-bacterial-cell-envelope
