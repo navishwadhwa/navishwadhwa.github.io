@@ -19,6 +19,7 @@ Now, you can imagine that this is an inherently subjective exercise and my favor
 
 ### The mechanics of the bacterial cell envelope 
 Wong, F., & Amir, A. (2019). Mechanics and Dynamics of Bacterial Cell Lysis. *Biophysical journal*, 116(12), 2378-2389.
+[*link to article*][2]
 
 One might erroneously consider prokaryotes to be the primitive cousins of their more advanced counterparts, the eukaryotes. However, this notion will quickly disappear when you look closer at the architecture and the properties of the cell envelope of bacteria. Unlike eukaryotes, which have a single lipid bilayer separating the inside of the cell from the outside, bacteria have a complex multilayered structure which, apart from forming a boundary, provides bacterial cells with their characteristic shapes. The bacterial cell envelope is like the exoskeleton of arthropods (think insects, crustaceans) – it is a rigid structure which gives shape and mechanical integrity to the organism.
 
@@ -31,4 +32,5 @@ As an experimental test of their modeling approach, Wong and Amir turned to the 
 The work by Wong and Amir advances our understanding of the mechanical nature of the bacterial cell envelope. Also, it is a demonstration of the power of simple models. Linear approximations are often as good as full-scale numerical solutions. Many would have considered an elastic shell model too simple to represent the bacterial cell envelope with all its intricate composition and spatiotemporal regulation. The results from this work prove otherwise. Remember the old adage, “If it works, it works”.
 	
 [1]: https://www.biophysics.org/blog/my-favorite-biophysical-journal-papers-of-2019-part-1
+[2]: https://www.cell.com/biophysj/fulltext/S0006-3495(19)30412-6
 
