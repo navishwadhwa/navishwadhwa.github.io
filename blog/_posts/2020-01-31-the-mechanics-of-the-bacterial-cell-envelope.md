@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A new way of trapping bacteria"
+title: "The mechanics of the bacterial cell envelope"
 description: ""
 author: "Navish Wadhwa"
 author_handle: navish
