@@ -1,83 +1,34 @@
 ---
 layout: post
-title: "Rethinking heat-induced aggregation"
+title: "A new way of trapping bacteria"
 description: ""
-author: "D. Allan Drummond"
-author_handle: dad
+author: "Navish Wadhwa"
+author_handle: navish
 category: blog
-published: true
+published: false
 theme: lab
 tags: []
 ---
 {% include JB/setup %}
 
-We've just published a [paper][1] on how cells respond to heat stress.
+ This post first appeared on the blog of [Biophysical Society][1]. This is part 1 of a 3-part series of blogs that I wrote about my favorite Biophysical Journal papers of 2019.
 
-### What did we do?
+As we accelerate into the new year, it is natural and perhaps also useful to review what happened in the last one. 2019 saw the publication of a number of excellent papers, so I thought I would revisit three of my favorite Biophysical Journal papers from the year. This blog is the first of a three-part series in which I talk about these papers.
 
-We measured heat-induced protein aggregation and disaggregation in budding yeast, a beautiful and hardy free-living unicellular organism that grows happily at 30°C, gets stressed out starting around 37°C, and dies pretty fast at 50°C.
+Now, you can imagine that this is an inherently subjective exercise and my favorite papers are unlikely to be the same set as anyone else’s. For one, I picked these papers because they contribute to my own field of interest – the biophysics of bacteria. A second factor that ties these papers together is that they all combine elegant experiments with simple theoretical models to learn something new. So, here is the first one.
 
-### What did we find?
+### The mechanics of the bacterial cell envelope 
+Wong, F., & Amir, A. (2019). Mechanics and Dynamics of Bacterial Cell Lysis. *Biophysical journal*, 116(12), 2378-2389.
 
-We discovered that aggregates of endogenous proteins that form after heat stress are fully reversible, form rapidly at specific locations, and in certain cases retain function and fidelity in vitro.
+One might erroneously consider prokaryotes to be the primitive cousins of their more advanced counterparts, the eukaryotes. However, this notion will quickly disappear when you look closer at the architecture and the properties of the cell envelope of bacteria. Unlike eukaryotes, which have a single lipid bilayer separating the inside of the cell from the outside, bacteria have a complex multilayered structure which, apart from forming a boundary, provides bacterial cells with their characteristic shapes. The bacterial cell envelope is like the exoskeleton of arthropods (think insects, crustaceans) – it is a rigid structure which gives shape and mechanical integrity to the organism.
 
-The behavior of endogenous, mature proteins in vivo does not match expectations from studies that use exogenous/reporter proteins or that focus on newly synthesized proteins. In those studies, aggregated proteins are often (but not always) degraded and generally lose their function.
+It should be of no surprise then that mechanics plays a key role in the function of bacterial cell envelopes. Mechanical defects in the cell envelope can be lethal to bacteria because they lead the cell to bursting open in a process termed lysis. In fact, many antibiotics kill bacteria by targeting the synthesis or maintenance of the cell envelope, resulting in mechanical defects in the envelope. It is therefore of significant practical interest to study the mechanical properties of the bacterial cell envelopes and to develop simple mathematical models for them.
 
-### Ideas
+This is exactly what Wong and Amir do in their paper. They set out to model the cell envelope mechanics of the bacterium Escherichia coli. The cell envelope of *E. coli* consists of three layers - inner and outer membranes consisting largely of phospholipids, and a rigid peptidoglycan wall sandwiched in between the two membranes. Wong and Amir develop a continuum model for the cell envelope by approximating the peptidoglycan cell wall as an elastic cylindrical shell with given material properties and reference size (the length and radius it would have if it didn’t interact with anything else), and the inner and outer membranes as fluid membranes. The equilibrium conformation of such a structure can be calculated by minimizing the total free energy arising from the bending and stretching of each of the layers and the entropy of the solutes inside the cell.
 
-What looked like heat-induced protein damage followed by triage and degradation instead looks like an orderly, evolved regulatory response.
+As an experimental test of their modeling approach, Wong and Amir turned to the same antibiotics that I mentioned above. These antibiotics, called β-lactams, cause defects in the peptidoglycan layer, causing the cell membranes to bulge out of cell followed by a slow swelling and an eventual rupture of the bulge. The authors tweaked their model to include bulge formation in it and compared their analytical and computational results with experiments in which they exposed bacteria to β-lactams. For reasonable values of parameters, the model does a good job of capturing the experimental results for both healthy cells as well as cells with bulge due to β-lactam exposure. In addition, the work by Wong and Amir provides evidence that swelling of the bulge takes place due to enlargement of the defect through which the bulge formed in the first place.
 
-### Irresponsible speculations
-
-Heat-induced protein aggregation has been seen as mostly _physics_, but (for proteins that actually aggregate during heat shock) it'll turn out to be mostly _biology_. The vast majority of aggregation in the cell in response to heat shock will prove to be beneficial. And not just by preventing toxicity, the way amyloid fibrils are often argued to be beneficial, but by carrying out critical cellular remodeling functions.
-
-Primary among those functions: focusing cellular protein synthesis on mRNAs encoding stress-responsive proteins.
-
-### Picture, please?
-
-For the science, there's no substitute for reading the [paper][1]. Here, I want to talk a little bit about how to think about what's going on in the cell, given our study and everything else we know.
-
-Here is the idyllic campus of the Cellular Institute with its manicured grounds and main building. Happy workers (proteins) go about their often inscrutable business.
-
-![institute](/assets/images/cellular-institute.png){:width="300px" style=".center"}
-
-When suddenly: *catastrophe*. A fire breaks out. (Heat shock!) What happens?
-
-What has long been observed---blurrily, as if from orbit, because our instruments aren't so great---is that suddenly the workers move to particular places and gather together in big groups.
-
-
-![fire-drill-blurry](/assets/images/fire-drill-blurry.png){:width="300px" style=".center"}
-
-Then after a little while, emergency crews show up, and some time after that, everything's back to normal.
-
-So what's going on? 
-
-Most previous work has guessed, for many good empirical reasons, that mainly what's going on is that the workers are distressed, damaged, even dying. Workers clump together because---gruesomely---heat partially melts them and makes them sticky. Of course, these workers stop working. Some injured workers can be rescued; many of them are beyond saving. The emergency crews triage victims, rescue some, and dispose of the bodies of the rest.
-
-![heat-shock-damage](/assets/images/heat-shock-damage.png){:width="550px" style=".center"}
-
-The alternative is that the institute has in place disaster-preparedness plans. What we observe is those plans being carried out to the letter, and the plans for heat shock look like the plans for a wide range of other emergencies:
-
-![emergency-plan](/assets/images/cellular-emergency-plan.png){:width="350px" style=".center"}
-
-Some workers stop working, but not because they're damaged, just to clear the way for the emergency crew. Others continue to go about their business. Those clumps are groups of workers calmly holding on to each other and collecting at [designated assembly points](http://www.potsdam.edu/about/physicalplant/evacuationplans/procedures.cfm). The emergency crew shows up and tends to the few workers who are actually injured. When they're done, the crew helps the assembled workers let go of each other and return to their original jobs.
-
-
-![heat-shock-assembly](/assets/images/heat-shock-assembly.png){:width="550px" style=".center"}
-
-Our study provides evidence that this latter set of activities describes the behavior of most endogenous, mature proteins. Which is not to say that the damage-and-chaos stuff doesn't happen! Rather, it happens mainly to newly synthesized proteins and to foreign, destabilized reporter proteins.
-
-So here's what we think is going on:
-
-![fire-drill](/assets/images/fire-drill-building-diagram.png){:width="750px" style=".center"}
-
-The "emergency crew" here is, naturally, the team of heat-induced molecular chaperones.
-
-There's much more to do, and we're incredibly excited to share the stories coming out of this work. Stay tuned...	
-
-
-
-[1]: /papers/paper/endogenous-aggregates/
-[2]: /papers/paper/mistranslation-induced-misfolding/
-[3]: /papers/paper/why-highly-expressed-proteins-evolve-slowly/
+The work by Wong and Amir advances our understanding of the mechanical nature of the bacterial cell envelope. Also, it is a demonstration of the power of simple models. Linear approximations are often as good as full-scale numerical solutions. Many would have considered an elastic shell model too simple to represent the bacterial cell envelope with all its intricate composition and spatiotemporal regulation. The results from this work prove otherwise. Remember the old adage, “If it works, it works”.
+	
+[1]: https://www.biophysics.org/blog/my-favorite-biophysical-journal-papers-of-2019-part-1
 
