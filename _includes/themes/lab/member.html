@@ -37,7 +37,7 @@
 			<i class="fa fa-file-text-o fa-fw"></i>			
 			<a class="off" href="{{ member.cv }}" target="_blank">{{ member.cv | split: '/' | last }}</a>
 		</div>		
-		<div class="smallspacer"></div>		
+		<div class="spacer"></div>		
 		{% endif %}	  		
 		{% if member.twitter %}		
 		<div class="smallhead">
@@ -48,7 +48,7 @@
 			<i class="fa fa-twitter fa-fw"></i>
 			<a class="off" href="https://twitter.com/{{ member.twitter }} " target="_blank">{{ member.twitter }}</a>
 		</div>		
-		<div class="smallspacer"></div>				
+		<div class="spacer"></div>				
 		{% endif %}	
 		{% if member.github %}
 		<div class="smallhead">
@@ -59,7 +59,7 @@
 			<i class="fa fa-github-alt fa-fw"></i>
 			<a class="off" href="https://github.com/{{ member.github }}" target="_blank">{{ member.github }}</a>
 		</div>		
-		<div class="smallspacer"></div>	
+		<div class="spacer"></div>	
 		{% endif %}		
 		{% if member.scholar %}
 		<div class="smallhead">
@@ -70,7 +70,7 @@
 			<i class="fa fa-book fa-fw"></i>
 			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}&sortby=pubdate" target="_blank">{{ member.title }}</a>
 		</div>		
-		<div class="smallspacer"></div>	
+		<div class="spacer"></div>	
 		{% endif %}				   	
 		{% if member.email %}
 		{% assign emailarray = member.email | split: '@' %}
@@ -82,7 +82,7 @@
 			<i class="fa fa-inbox fa-fw"></i>
 			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
 		</div>		
-		<div class="smallspacer"></div>			
+		<div class="spacer"></div>			
 		{% endif %}						
 	</div>
 	<div class="bigspacer"></div>	
@@ -100,14 +100,14 @@
 
 		{% if papersq == true %}
 			<div class="bigspacer"></div>
-			<div class="head">Papers</div>
+			<div class="head">Publications</div>
 			<div class="spacer"></div>
 			{% for paper in site.categories.papers %}
 				{% if paper.authors contains lastname %}
 					{% if paper.embargo %}
 					<p>{{ paper.title }}
 					{% else %}
-					<p><a href="{{ paper.url }}" class="off" target="_blank">{{ paper.title }}</a>
+					<p><a href="{{ paper.url }}" class="off" target="_blank"><em>{{ paper.title }}</em></a>
 					{% endif %}
 				{% endif %}
 			{% endfor %}
