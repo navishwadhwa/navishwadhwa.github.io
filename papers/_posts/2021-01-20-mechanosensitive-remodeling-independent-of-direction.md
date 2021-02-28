@@ -22,6 +22,7 @@ doi: 10.1101/2021.01.19.427295
 category: paper
 published: true
 peerreview: false
+preprint: true
 review: false
 tags: [bacterial motility, flagellar motor, self-assembly, molecular motors, Escherichia col]
 ---
