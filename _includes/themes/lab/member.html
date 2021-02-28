@@ -16,7 +16,7 @@
 			<div class="title media-heading">
 				{{ member.title }}
 			</div>
-			<br/>
+			<!-- <br/> -->
 			<div class="smallhead">
 				{{ member.position }}
 			</div>
@@ -33,44 +33,44 @@
 			CV
 		</div>	
 		<div class="pad-left note">
-			<div class="smallspacer"></div>
+			<!-- <div class="smallspacer"></div> -->
 			<i class="fa fa-file-text-o fa-fw"></i>			
 			<a class="off" href="{{ member.cv }}" target="_blank">{{ member.cv | split: '/' | last }}</a>
 		</div>		
-		<div class="bigspacer"></div>		
+		<div class="smallspacer"></div>		
 		{% endif %}	  		
 		{% if member.twitter %}		
 		<div class="smallhead">
 			Twitter
 		</div>	
 		<div class="pad-left note">
-			<div class="smallspacer"></div>
+			<!-- <div class="smallspacer"></div> -->
 			<i class="fa fa-twitter fa-fw"></i>
 			<a class="off" href="https://twitter.com/{{ member.twitter }} " target="_blank">{{ member.twitter }}</a>
 		</div>		
-		<div class="bigspacer"></div>				
+		<div class="smallspacer"></div>				
 		{% endif %}	
 		{% if member.github %}
 		<div class="smallhead">
 			GitHub
 		</div>	
 		<div class="pad-left note">
-			<div class="smallspacer"></div>
+			<!-- <div class="smallspacer"></div> -->
 			<i class="fa fa-github-alt fa-fw"></i>
 			<a class="off" href="https://github.com/{{ member.github }}" target="_blank">{{ member.github }}</a>
 		</div>		
-		<div class="bigspacer"></div>	
+		<div class="smallspacer"></div>	
 		{% endif %}		
 		{% if member.scholar %}
 		<div class="smallhead">
 			Google Scholar
 		</div>	
 		<div class="pad-left note">
-			<div class="smallspacer"></div>
+			<!-- <div class="smallspacer"></div> -->
 			<i class="fa fa-book fa-fw"></i>
 			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}&sortby=pubdate" target="_blank">{{ member.title }}</a>
 		</div>		
-		<div class="bigspacer"></div>	
+		<div class="smallspacer"></div>	
 		{% endif %}				   	
 		{% if member.email %}
 		{% assign emailarray = member.email | split: '@' %}
@@ -78,13 +78,14 @@
 			Email
 		</div>	
 		<div class="pad-left note">
-			<div class="smallspacer"></div>
+			<!-- <div class="smallspacer"></div> -->
 			<i class="fa fa-inbox fa-fw"></i>
 			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
 		</div>		
-		<div class="bigspacer"></div>			
+		<div class="smallspacer"></div>			
 		{% endif %}						
 	</div>
+	<div class="bigspacer"></div>	
 	<div class="col-md-8">	
 		<div class="post">
 			{{ content }}
