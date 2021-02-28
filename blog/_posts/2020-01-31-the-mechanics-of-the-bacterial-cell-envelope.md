@@ -11,7 +11,7 @@ tags: []
 ---
 {% include JB/setup %}
 
- This post first appeared on the blog of [Biophysical Society][1]. This is part 1 of a 3-part series of blogs that I wrote about my favorite Biophysical Journal papers of 2019.
+ This post first appeared on the [blog of Biophysical Society][1]. This is part 1 of a 3-part series of blogs that I wrote about my favorite Biophysical Journal papers of 2019.
 
 As we accelerate into the new year, it is natural and perhaps also useful to review what happened in the last one. 2019 saw the publication of a number of excellent papers, so I thought I would revisit three of my favorite Biophysical Journal papers from the year. This blog is the first of a three-part series in which I talk about these papers.
 
