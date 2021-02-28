@@ -2,7 +2,7 @@
 layout: project
 title: "Mechanosensitive remodeling in the bacterial flagellar motor"
 handle: stator-remodeling
-image: /assets/images/projects/assembly-invivo-invitro.svg
+image: /assets/images/projects/stator-remodeling.png
 category: project
 tags: [motor, mechanosensing, stator units]
 ---
