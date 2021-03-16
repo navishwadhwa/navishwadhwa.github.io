@@ -7,4 +7,4 @@ image: /assets/images/news/grant-money.jpg
 category: news
 tags: [grants]
 ---
-I got a K99/R00 award from NIGMS. This award will provide two years of funding for my postdoctoral research and three years of research funding for my future labaratory. Thank you, NIH!
+I received the K99/R00 award from NIGMS. This award will provide me with two years of funding for postdoctoral research and three years of funding for my future laboratory. Thank you, NIH!
