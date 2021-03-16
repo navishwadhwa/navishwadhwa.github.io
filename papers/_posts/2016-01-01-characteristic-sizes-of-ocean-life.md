@@ -9,7 +9,7 @@ volume: 8
 issue: 
 pages: 217-41
 authors: "Andersen KH, Berge T, Gonçalves RJ, Hartvig M, Heuschele J, Hylander S, Jacobsen NS, Lindemann C, Martens EA, Neuheimer AB, Olsson K, Palacz A, Prowe AE, Sainmont J, Traving SJ, Visser AW, Wadhwa N, Kiørboe T"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/size-ocean.png
 fulltext: https://www.annualreviews.org/doi/10.1146/annurev-marine-122414-034144
 pdf: 
 pdflink: https://www.annualreviews.org/doi/pdf/10.1146/annurev-marine-122414-034144

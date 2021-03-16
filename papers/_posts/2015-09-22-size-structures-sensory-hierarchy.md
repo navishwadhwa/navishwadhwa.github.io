@@ -9,7 +9,7 @@ volume: 282
 issue: 1815
 pages: 20151346
 authors: "Martens EA, Wadhwa N, Jacobsen NS, Lindemann C, Andersen KH, Visser A"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/size-sensing.png
 fulltext: https://royalsocietypublishing.org/doi/10.1098/rspb.2015.1346
 pdf: 
 pdflink: https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2015.1346
