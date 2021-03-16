@@ -165,7 +165,7 @@ strong {
 	display: table-cell; 
 	vertical-align: middle;
 	text-align: center;
-	text-shadow: 1.5px 1.5px #ffffff;
+	text-shadow: 1.5px 1.5px #000000;
 }
 
 // navbar
@@ -176,7 +176,7 @@ strong {
 }
 
 .navbar-nav { 
-	font-size: 30px; 
+	font-size: 20px; 
 	font-weight: $font-weight-base;
 	a {
 		color: black;
@@ -184,7 +184,7 @@ strong {
 }
 
 .dropdown-menu {
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: $font-weight-base;
 }
 
@@ -261,6 +261,7 @@ strong {
 	line-height: 30px;
 	line-height: 4vw;
 	font-weight: 100;
+	color: white
 }
 
 @media all and (min-width: 1024px) {

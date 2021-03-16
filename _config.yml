@@ -3,12 +3,12 @@
 # permalink: /:categories/:year/:month/:day/:title 
 permalink: /:categories/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".sublime-project", ".sublime-workspace"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".sublime-project", ".sublime-workspace", "protocols"]
 highlighter: rouge
 
 markdown: kramdown
 
-repository: drummondlab/drummondlab.github.io
+repository: navishwadhwa/navishwadhwa.github.io
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -131,7 +131,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-   provider : tweet
+   provider : false
    twitter :
      size :
      via :

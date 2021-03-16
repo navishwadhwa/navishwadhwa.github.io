@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "Blog"
-description: "The Drummond Lab blog"
+description: "Navish Wadhwa's blog"
 group: navigation
-navorder: 4
+navorder: 5
 ---
 {% include JB/setup %}
 
@@ -44,6 +44,7 @@ navorder: 4
 			<div class="head">
 				<a href="{{ post.url }}" class="off">{{ post.title }}</a>
 			</div>
+			<div class="spacer"></div>
 			<div class="smallnote">
 				{{ post.date | date_to_string }}
 				{% if author %}
@@ -61,6 +62,10 @@ navorder: 4
 			</div>
 		</div>			
 		<div class="col-md-1"></div>
+	</div>
+
+	<div class="row">
+		<hr/>
 	</div>		
 
 {% endfor %}
