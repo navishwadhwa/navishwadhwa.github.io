@@ -9,7 +9,7 @@ volume: 116
 issue: 24
 pages: 11764-69
 authors: "Wadhwa N, Phillips R, Berg HC"
-image: /assets/images/papers/stator-remodeling.png
+image: /assets/images/papers/electrorotation.png
 fulltext: https://www.pnas.org/content/116/24/11764.long
 pdf: 
 pdflink: https://www.pnas.org/content/pnas/116/24/11764.full.pdf

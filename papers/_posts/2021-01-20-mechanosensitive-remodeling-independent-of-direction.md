@@ -9,7 +9,7 @@ volume:
 issue: 
 pages: 427295
 authors: "Wadhwa N, Tu Y, Berg HC"
-image: /assets/images/papers/cw-ccw-rates.png
+image: /assets/images/papers/stator-remodeling.png
 fulltext: https://www.biorxiv.org/content/10.1101/2021.01.19.427295v1
 pdf: 
 pdflink: https://www.biorxiv.org/content/10.1101/2021.01.19.427295v1.full.pdf
