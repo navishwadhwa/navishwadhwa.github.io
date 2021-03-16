@@ -9,7 +9,7 @@ volume: 217
 issue: 17
 pages: 3085-94
 authors: "Wadhwa N, Andersen A, Kiørboe T"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/copepods.png
 fulltext: https://jeb.biologists.org/content/217/17/3085.long
 pdf: 
 pdflink: https://jeb.biologists.org/content/jexbio/217/17/3085.full.pdf

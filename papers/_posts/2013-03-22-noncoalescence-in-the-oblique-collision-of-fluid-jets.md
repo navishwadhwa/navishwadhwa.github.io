@@ -9,7 +9,7 @@ volume: 110
 issue: 12
 pages: 124502
 authors: "Wadhwa N, Vlachos P, Jung S"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/non-coalescence.png
 fulltext: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.110.124502
 pdf: 
 pdflink: https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.110.124502

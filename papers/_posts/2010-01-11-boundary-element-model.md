@@ -9,7 +9,7 @@ volume: 2
 issue: 2-3
 pages: 143-160
 authors: "Wadhwa N, Jain V, Fowlkes JB, Bull JL, Eshpuniyani B"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/boundary-element.png
 pdf: 
 pdflink: 
 github: 
