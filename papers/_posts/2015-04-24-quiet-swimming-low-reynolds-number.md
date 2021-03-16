@@ -9,7 +9,7 @@ volume: 91
 issue: 4
 pages: 042712
 authors: "Andersen A, Wadhwa N, Kiørboe T"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/quiet-swimming.png
 fulltext: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.91.042712
 pdf: 
 pdflink: https://journals.aps.org/pre/pdf/10.1103/PhysRevE.91.042712
