@@ -9,7 +9,7 @@ volume: 111
 issue: 32
 pages: 11738-43
 authors: "Kiørboe T, Jiang H, Gonçalves RJ, Nielsen LT, Wadhwa N"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/flow-disturbance.png
 fulltext: https://www.pnas.org/content/111/32/11738.long
 pdf: 
 pdflink: https://www.pnas.org/content/pnas/111/32/11738.full.pdf
