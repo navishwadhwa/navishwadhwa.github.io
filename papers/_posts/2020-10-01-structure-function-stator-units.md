@@ -9,7 +9,7 @@ volume: 183
 issue: 1
 pages: 244-57
 authors: "Santiveri M, Roa-Eguiara A, Kühne C, Wadhwa N, Hu H, Berg HC, Erhardt M, Taylor NMI"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/motor-art-taylor.jfif
 fulltext: https://www.cell.com/cell/fulltext/S0092-8674(20)31007-2
 pdf: 
 pdflink: https://www.cell.com/cell/pdf/S0092-8674(20)31007-2.pdf
