@@ -39,18 +39,18 @@ navorder: 4
 {% endfor %}
 	<div style="max-width: 900px; margin: auto;">
 		<div class="bigspacer"></div>
-		<div class="head">
+		<div class="bighead">
 			<a class="off" href="{{ post.url }}">{{ post.title }}</a>
 		</div>
 		<div class="spacer"></div>
-		<div class="smallnote">
+		<div class="note">
 			{{ post.date | date_to_string }}
 			{% if author %}
 			by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
 			{% endif %}
 		</div>
 
-		<div style="height:5px;"></div>
+		<div class="bigspacer"></div>
 		{% if post.image %}
 		<a href="{{ post.url }}"><img class="offset" src="{{ post.image }}"></a>
 		{% endif %}
