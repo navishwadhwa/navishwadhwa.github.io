@@ -37,8 +37,8 @@ navorder: 4
 {% assign author = member %}
 {% endif %}
 {% endfor %}
-
-<div class="bigspacer"></div>
+	<div style="max-width: 900px; margin: auto;">
+		<div class="bigspacer"></div>
 		<div class="head">
 			<a class="off" href="{{ post.url }}">{{ post.title }}</a>
 		</div>
@@ -57,6 +57,7 @@ navorder: 4
 		<div class="post">
 			{{ post.content }}
 		</div>
+	</div>
 {% endfor %}
 
 <!-- <div class="bigspacer"></div>
