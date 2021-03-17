@@ -23,7 +23,7 @@ navorder: 3
             <div class="smallhead media-heading">
             {{ paper.title }}
             </div>
-            <p class="note">{{ paper.shortref }}</p>
+            <p class="shortref">{{ paper.shortref }}</p>
           </div>
       </div>
       {% elsif paper.preprint %}
@@ -35,7 +35,7 @@ navorder: 3
             <div class="smallhead media-heading">
             <a href="{{ paper.url }}" class="off">PREPRINT: {{ paper.title }}</a>
             </div>
-            <p class="note">{{ paper.shortref }}</p>
+            <p class="shortref">{{ paper.shortref }}</p>
         </div>
       </div>
       {% else %}
@@ -47,7 +47,7 @@ navorder: 3
             <div class="smallhead media-heading">
             <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
             </div>
-            <p class="note">{{ paper.shortref }}</p>
+            <p class="shortref">{{ paper.shortref }}</p>
         </div>
       </div>
       {% endif %}
