@@ -307,7 +307,7 @@ strong {
 }
 
 .smallhead {
-	font-size: 19px;
+	font-size: $font-size-base*1.5;
 	font-weight: $font-weight-base;
 	line-height: 23px;
 }
@@ -334,7 +334,7 @@ strong {
 
 	a {
 		color: black;
-		border-bottom: thin dotted;
+		border-bottom: thin dashed;
 		/*&:hover {
 			border-bottom: thin solid;	
 		}*/
@@ -360,7 +360,9 @@ strong {
 }
 
 .shortref {
-	font-style: italic;
+	// font-style: italic;
+	font-weight: 700;
+	color: Green;
 }
 
 /* tag_box */

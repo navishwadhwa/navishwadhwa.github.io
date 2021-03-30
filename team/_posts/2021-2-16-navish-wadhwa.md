@@ -12,4 +12,3 @@ image: /assets/images/team/navish.jpg
 cv: /assets/pdfs/wadhwa-cv.pdf
 alum: false
 ---
-Navish description.
