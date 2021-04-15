@@ -11,7 +11,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-This post first appeared on the [website](https://www.mcb.harvard.edu/department/news/the-bacterial-flagellar-engine-has-a-bidirectional-gearshift-berg-lab/) of MCB department at Harvard. 
+This post first appeared on the [website](https://www.mcb.harvard.edu/department/news/the-bacterial-flagellar-engine-has-a-bidirectional-gearshift-berg-lab/){:target="_blank"} of MCB department at Harvard. 
 
 ### The bacterial flagellar engine has a bidirectional gearshift
 
