@@ -39,7 +39,7 @@ navorder: 4
 {% endfor %}
 	<div style="max-width: 900px; margin: auto;">
 		<div class="bigspacer"></div>
-		<div class="bighead">
+		<div class="smallhead">
 			<a class="off" href="{{ post.url }}">{{ post.title }}</a>
 		</div>
 		<div class="spacer"></div>
@@ -57,6 +57,9 @@ navorder: 4
 		<div class="post">
 			{{ post.content }}
 		</div>
+		<!-- <div class="row"> -->
+			<hr/>
+		<!-- </div> -->
 	</div>
 {% endfor %}
 
