@@ -61,23 +61,23 @@ with gratitude.
 				{% if page.pdflink %}
 					<i class="fa fa-file-pdf-o fa-fw"></i>
 					{% if page.preprint %}
-					<a class="off" href="{{ page.pdflink }}">Preprint PDF</a>
+					<a class="off" href="{{ page.pdflink }}" target="_blank">Preprint PDF</a>
 					{% else %}
-					<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
+					<a class="off" href="{{ page.pdflink }}" target="_blank">Journal PDF</a>
 					{% endif %}
 					<br/>
 				{% endif %}
 				{% if page.pdf %}
 					<i class="fa fa-file-pdf-o fa-fw"></i>
-					<a class="off" href="{{ page.pdf }}">PDF</a>
+					<a class="off" href="{{ page.pdf }}" target="_blank">PDF</a>
 					<br/>
 				{% endif %}
 				{% if page.fulltext %}
 				<i class="fa fa-external-link fa-fw"></i>
 				{% if page.preprint %}
-				<a class="off" href="{{ page.fulltext }}">Preprint HTML</a>
+				<a class="off" href="{{ page.fulltext }}" target="_blank">Preprint HTML</a>
 				{% else %}
-				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
+				<a class="off" href="{{ page.fulltext }}" target="_blank">Journal HTML</a>
 				{% endif %}
 				{% endif %}
 			</div>
@@ -91,7 +91,7 @@ with gratitude.
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-paperclip fa-fw"></i>
-				<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
+				<a class="off" href="{{ page.supplement }}" target="_blank">{{ page.supplement | split: '/' | last }}</a>
 			</div>
 			<div class="bigspacer"></div>			
 			{% endif %}
@@ -103,7 +103,7 @@ with gratitude.
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
+				<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}" target="_blank">{{ page.pmid }}</a>
 			</div>
 			<div class="bigspacer"></div>			
 			{% endif %}
@@ -115,7 +115,7 @@ with gratitude.
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
+				<a class="off" href="http://dx.doi.org/{{ page.doi }}" target="_blank">{{ page.doi }}</a>
 			</div>
 			<div class="bigspacer"></div>			
 			{% endif %}
@@ -127,7 +127,7 @@ with gratitude.
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-cog fa-fw"></i>
-				<a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
+				<a class="off" href="{{ page.github }}" target="_blank">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
@@ -138,7 +138,7 @@ with gratitude.
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-database fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/{{ page.dryad_doi }}">Dryad</a>
+				<a class="off" href="http://dx.doi.org/{{ page.dryad_doi }}" target="_blank">Dryad</a>
 			</div>
 			<div class="bigspacer"></div>			
 			{% endif %}
@@ -149,7 +149,7 @@ with gratitude.
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-database fa-fw"></i>
-				<a class="off" href="http://doi.org/{{ page.figshare_doi }}">Figshare</a>
+				<a class="off" href="http://doi.org/{{ page.figshare_doi }}" target="_blank">Figshare</a>
 			</div>
 			<div class="bigspacer"></div>			
 			{% endif %}
