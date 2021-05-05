@@ -15,6 +15,10 @@ Following up on the @APSDBIO tweetorial about the bacterial flagellar motor, her
 
 ### Reviews
 [Berg 2003](https://arjournals.annualreviews.org/doi/10.1146/annurev.biochem.72.121801.161737){:target="_blank"}
+[Sowa and Berry 2008](https://www.cambridge.org/core/journals/quarterly-reviews-of-biophysics/article/bacterial-flagellar-motor/60CC83BA11259898821D5FC6CC5EF6D3){:target="_blank"}
+[Nakamura and Minamino 2019](https://www.mdpi.com/2218-273X/9/7/279){:target="_blank"}
+
+
 
 ### Structures
 ### Bi-directional rotation
