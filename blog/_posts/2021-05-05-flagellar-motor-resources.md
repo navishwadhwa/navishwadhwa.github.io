@@ -32,8 +32,4 @@ Following up on the @APSDBIO tweetorial about the bacterial flagellar motor, her
 [Lele et al. 2013](https://www.pnas.org/content/110/29/11839.short){:target="_blank"}
 [Nord et al. 2017](https://www.pnas.org/content/114/49/12952.short){:target="_blank"}
 
-### Remodeling
-[](){:target="_blank"}
-
-
 As you see, this is a rather brief list. If you know of other cool papers that you would like to see listed here, feel free to drop me a message.
