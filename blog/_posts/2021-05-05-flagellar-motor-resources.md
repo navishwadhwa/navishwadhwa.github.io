@@ -41,12 +41,10 @@ Following up on the @APSDBIO [tweetorial](https://twitter.com/ApsDbio/status/139
 
 ### Torque-speed relationship
 
-#### Experiments
 [Chen and Berg 2000](https://www.sciencedirect.com/science/article/pii/S0006349500766628){:target="_blank"}
 
 [Yuan et al. 2010](https://www.pnas.org/content/107/29/12846.short){:target="_blank"}
 
-#### Theory
 [Xing et al. 2006](https://www.pnas.org/content/103/5/1260){:target="_blank"}
 
 [Meacchi and Tu 2011](https://www.sciencedirect.com/science/article/pii/S0006349511002967){:target="_blank"}
