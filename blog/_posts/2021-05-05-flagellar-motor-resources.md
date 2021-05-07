@@ -40,9 +40,15 @@ Following up on the @APSDBIO [tweetorial](https://twitter.com/ApsDbio/status/139
 [Nord et al. 2017](https://www.pnas.org/content/114/49/12952.short){:target="_blank"}
 
 ### Torque-speed relationship
+
+#### Experiments
 [Chen and Berg 2000](https://www.sciencedirect.com/science/article/pii/S0006349500766628){:target="_blank"}
+
 [Yuan et al. 2010](https://www.pnas.org/content/107/29/12846.short){:target="_blank"}
+
+#### Theory
 [Xing et al. 2006](https://www.pnas.org/content/103/5/1260){:target="_blank"}
+
 [Meacchi and Tu 2011](https://www.sciencedirect.com/science/article/pii/S0006349511002967){:target="_blank"}
 
 As you see, this is a rather brief list. If you know of other cool papers that you would like to see listed here, feel free to drop [me](https://navishwadhwa.com/team/navish-wadhwa) a message.
