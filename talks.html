@@ -1,0 +1,14 @@
+---
+layout: default
+title: Navish Wadhwa, PhD
+categories:
+ - home
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.talks %}
+	{% assign talkspage = page %}
+{% endif %}
+{% endfor %}
+
+{{ talkspage.content }}
