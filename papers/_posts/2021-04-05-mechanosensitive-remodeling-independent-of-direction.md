@@ -24,7 +24,7 @@ published: true
 peerreview: true
 preprint: false
 review: false
-tags: [bacterial motility, flagellar motor, self-assembly, molecular motors, Escherichia col]
+tags: [bacterial motility, flagellar motor, self-assembly, molecular motors, Escherichia coli]
 ---
 {% include JB/setup %}
 
