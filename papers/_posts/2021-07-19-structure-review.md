@@ -9,7 +9,7 @@ volume:
 issue: 
 pages: 
 authors: "Hu H, Santiveri M, Wadhwa N, Berg HC, Erhardt M, Taylor NMI"
-image: 
+image: /assets/images/papers/structure-review.png
 fulltext: https://www.cell.com/trends/biochemical-sciences/fulltext/S0968-0004(21)00139-0
 pdf: 
 pdflink: https://www.cell.com/action/showPdf?pii=S0968-0004%2821%2900139-0
