@@ -2,7 +2,7 @@
 layout: paper
 title: "Structural basis of torque generation in the bi-directional bacterial flagellar motor"
 year: "2021"
-shortref: "Hu, Santiveri, Wadhwa et. al, <i>Trends Biochem Sci</i> 2021"
+shortref: "Hu, Santiveri, Wadhwa et al., <i>Trends Biochem Sci</i> 2021"
 nickname: structural-basis-torque-generation
 journal: "Trends Biochem Sci"
 volume: 
