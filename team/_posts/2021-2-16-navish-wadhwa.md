@@ -7,7 +7,7 @@ handle: navish
 email: navish_wadhwa@fas.harvard.edu
 twitter: NavishWadhwa
 github: navishwadhwa
-scholar: -ad98pWwAAAAJ
+scholar: ad98pWwAAAAJ&view_op=list_works&sortby=pubdate
 image: /assets/images/team/navish.jpg
 cv: /assets/pdfs/wadhwa-cv.pdf
 alum: false
