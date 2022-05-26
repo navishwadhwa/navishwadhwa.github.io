@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Navish Wadhwa"
-position: K99 Postdoctoral Fellow
+position: Principal investigator
 nickname: Navish
 handle: navish
 email: navish_wadhwa@fas.harvard.edu
