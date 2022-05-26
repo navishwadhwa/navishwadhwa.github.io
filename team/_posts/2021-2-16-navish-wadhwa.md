@@ -1,7 +1,8 @@
 ---
 layout: member
 title: "Navish Wadhwa"
-position: Principal investigator
+category: Principal Investigator
+position: Principal Investigator
 nickname: Navish
 handle: navish
 email: navish_wadhwa@fas.harvard.edu
