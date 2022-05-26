@@ -15,7 +15,29 @@ permalink: /team/
 {% include JB/setup %}
 
 <div class="bigspacer"></div>
-{% assign current_team = site.categories.team | where: "alum","false"%}
+<div class="title subtle">Principal Investigator</div>
+<div class="bigspacer"></div>
+{% assign pi = site.categories.team | where: "category","Principal Investigator"%}
+{% for member in pi %}
+    <div class="row">
+    <div class="col-md-4 memberbox">
+        <div class="media">
+	    <a class="pull-left" href="{{ member.url }}">
+            <img class="media-object member-photo" src="{{ member.image }}">
+	    </a>
+            <div class="media-body">
+	    <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+	    <p class="note">{{ member.position }}</p>
+	    </div>
+	</div>
+    </div>
+    </div> <!-- close row -->
+{% endfor %}
+
+<div class="bigspacer"></div>
+<div class="title subtle">Join us</div>
+<div class="bigspacer"></div>
+{% assign current_team = site.categories.team | where: "category","member"%}
 {% assign memberindex = 0 %}
 {% for member in current_team reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}
