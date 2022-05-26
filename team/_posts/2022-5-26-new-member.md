@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "This could be you"
-position: 
+position: member
 nickname: new
 handle: 
 email: 
