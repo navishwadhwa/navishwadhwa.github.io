@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "This could be you"
+title: "You"
 category: member
 position: 
 nickname: new
