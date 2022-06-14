@@ -16,14 +16,14 @@ repository: navishwadhwa/navishwadhwa.github.io
 title : WADHWA LAB
 tagline: Mechanobiology of bacteria
 institution:
-  url: http://www.harvard.edu
-  name: Harvard University
+  url: https://www.asu.edu/
+  name: Arizona State University
 department:
-  url: https://www.mcb.harvard.edu
-  name: Molecular and Cellular Biology
+  url: https://physics.asu.edu/
+  name: Department of Physics
 author :
   name : Navish Wadhwa
-  email : navish_wadhwa@fas.harvard.edu
+  email : thewadhwalab@gmail.com
   github : navishwadhwa
   twitter : NavishWadhwa
 #  feedburner : feedname
