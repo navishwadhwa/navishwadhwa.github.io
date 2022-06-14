@@ -14,4 +14,4 @@ cv:
 alum: false
 ---
 
-We are currently recruiting motivated, creative, and curiosity-driven scientists to join our growing team. Visit [this page](/join){:target="_blank"} to get started.
+We are currently recruiting motivated, creative, and curiosity-driven scientists to join our growing team. Visit [this page](/join) to get started.
