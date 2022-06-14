@@ -6,6 +6,18 @@ group: navigation
 navorder: 5
 ---
 {% include JB/setup %}
-
+{% for page in site.categories.misc %}
+{% if page.join %}
+	{% assign join = page %}
+{% endif %}
+{% endfor %}
 <div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="smallhead">
+			{{ join.content }}
+		</div>
+	</div>				
+</div>
 
