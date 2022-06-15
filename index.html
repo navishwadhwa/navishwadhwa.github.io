@@ -62,11 +62,11 @@ categories:
 <div class="row">
 	<div class="col-md-4">
 		<div class="smallhead">
-			<a class="off" href="/news/"><u>News</u></a>
+			<a class="off" href="/news/"><u>Recent news</u></a>
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">
-			{% for news in site.categories.news limit:8 %}
+			{% for news in site.categories.news limit:4 %}
 			
 				{% for member in site.categories.team %}
 					{% if member.handle == news.author_handle %}
@@ -95,17 +95,22 @@ categories:
 				<div class="spacer"></div>				
 			{% endfor %}
 		</div>
+		<div class="note-title">
+			<a class="off" href="/news/">
+			<u>See all</u>
+			</a>
+		</div>
 		<div class="bigspacer"></div>		
 	</div>
 
 	<div class="col-md-4">
 		<div class="smallhead">
-			<a class="off" href="/papers/"><u>Publications</u>
+			<a class="off" href="/papers/"><u>Recent publications</u>
 			</a>
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">		
-			{% for paper in site.categories.papers limit:6 %}
+			{% for paper in site.categories.papers limit:3 %}
 				<div class="note-title">
 					<i class="fa fa-file-text-o fa-fw"></i>
 					{% if paper.preprint %}
@@ -135,6 +140,11 @@ categories:
 				<div class="spacer"></div>	
 				<div class="spacer"></div>				
 			{% endfor %}
+		</div>
+		<div class="note-title">
+			<a class="off" href="/papers/">
+			<u>See all</u>
+			</a>
 		</div>
 		<div class="bigspacer"></div>		
 	</div>
@@ -171,6 +181,12 @@ categories:
 				<div class="spacer"></div>				
 			{% endfor %}
 		</div>
+		<div class="note-title">
+			<a class="off" href="/blog/">
+			<u>See all</u>
+			</a>
+		</div>
+
 		<div class="bigspacer"></div>		
 	</div>
 </div>
