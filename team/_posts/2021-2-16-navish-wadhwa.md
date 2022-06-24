@@ -5,7 +5,7 @@ category: Principal Investigator
 position: Principal Investigator
 nickname: Navish
 handle: navish
-email: thewadhwalab@gmail.com
+email: Navish@asu.edu
 twitter: NavishWadhwa
 github: navishwadhwa
 scholar: ad98pWwAAAAJ&view_op=list_works&sortby=pubdate
