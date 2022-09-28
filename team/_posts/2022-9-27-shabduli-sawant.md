@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Shabduli Sawant"
-category: Graduate Student 
+category: member 
 position: Graduate Student
 nickname: Shabduli
 handle: shabduli
