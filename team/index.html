@@ -35,11 +35,11 @@ permalink: /team/
 {% endfor %}
 
 <div class="bigspacer"></div>
-<div class="title subtle">Join us</div>
+<div class="title subtle">Lab members</div>
 <div class="bigspacer"></div>
 {% assign current_team = site.categories.team | where: "category","member"%}
 {% assign memberindex = 0 %}
-{% for member in current_team reversed %}
+{% for member in current_team%}
 	{% assign memberindex = memberindex | plus: 1 %}
 	{% assign colindex = memberindex | modulo: 3 %}
 	{% if colindex == 1 %} <!-- opening of a new row -->
