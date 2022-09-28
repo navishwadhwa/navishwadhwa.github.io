@@ -5,11 +5,11 @@ category: member
 position: Graduate Student
 nickname: Shabduli
 handle: shabduli
-email: 
-twitter: 
-github: 
+email: sasawan4@asu.edu
+twitter: Shabduli19
+github: shabduli
 scholar: 
 image: /assets/images/team/shabduli.jpg
-cv: 
+cv: /assets/pdfs/shabduli-cv.pdf
 alum: false
 ---
