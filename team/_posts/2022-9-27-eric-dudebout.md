@@ -5,11 +5,11 @@ category: member
 position: Undergraduate Student
 nickname: Eric
 handle: eric
-email: 
+email: edudebou@asu.edu
 twitter: 
 github: 
 scholar: 
 image: 
-cv: 
+cv: /assets/pdfs/dudebout-resume.pdf
 alum: false
 ---
