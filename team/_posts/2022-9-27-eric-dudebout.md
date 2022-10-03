@@ -9,7 +9,7 @@ email: edudebou@asu.edu
 twitter: 
 github: 
 scholar: 
-image: 
+image: /assets/images/team/EricDudebout.jpg
 cv: /assets/pdfs/dudebout-resume.pdf
 alum: false
 ---
