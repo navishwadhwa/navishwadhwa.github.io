@@ -1,28 +1,28 @@
 ---
 layout: paper
-title: "A multi-state dynamical process underpins mechano-adaptation in the bacterial flagellar motor"
-year: "2021"
-shortref: "Wadhwa, Sassi et al., <i>BioRxiv</i> 2021"
+title: "A multi-state dynamic process confers mechano-adaptation to a biological nanomachine"
+year: "2022"
+shortref: "Wadhwa, Sassi et al., <i>Nat Comm</i> 2022"
 nickname: multistate-model
-journal: "BioRxiv"
+journal: "Nat Comm"
 volume: 
 issue: 
 pages: 
 authors: "Wadhwa N, Sassi AS, Berg HC, Tu Y"
 image: /assets/images/papers/four-state-model.png
-fulltext: https://www.biorxiv.org/content/10.1101/2021.12.22.473861v1.full
+fulltext: https://www.nature.com/articles/s41467-022-33075-5
 pdf: 
-pdflink: https://www.biorxiv.org/content/10.1101/2021.12.22.473861v1.full.pdf
+pdflink: https://www.nature.com/articles/s41467-022-33075-5.pdf
 github: 
 pmid: 
 pmcid: 
 f1000: 
 figshare: 
-doi: 10.1101/2021.12.22.473861
+doi: 10.1038/s41467-022-33075-5
 category: paper
 published: true
-peerreview: false
-preprint: true
+peerreview: true
+preprint: false
 review: false
 tags: [bacterial flagellar motor, stator unit, bacterial motility, mechano-adaptation, remodeling]
 ---
