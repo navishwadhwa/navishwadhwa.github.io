@@ -7,4 +7,4 @@ author_handle: "navish"
 category: news
 tags: [publication]
 ---
-Shabduli Sawant has accepted the offer to join the Wadhwa lab as its first graduate student, starting in January 2023. Welcome Shabduli!
+Shabduli Sawant has accepted the offer to join the Wadhwa lab as its first graduate student, starting in January 2023. Welcome, Shabduli!
