@@ -2,7 +2,7 @@
 layout: member
 title: "Luis Meneses"
 category: member 
-position: Undergraduate Student
+position: Lab Assistant
 nickname: Luis
 handle: luis
 email: lemenese@asu.edu
