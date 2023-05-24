@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "David C. joins the lab"
+title: "David Castillo joins the lab"
 author: "Navish Wadhwa"
 author_handle: "navish"
 # image: /assets/images/news/microscope.jpg
