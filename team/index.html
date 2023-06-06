@@ -21,7 +21,7 @@ permalink: /team/
 </div>
 -->
 
-<div class="bigspacer"></div>
+<!-- <div class="bigspacer"></div>
 <div class="title subtle">Principal Investigator</div>
 <div class="bigspacer"></div>
 {% assign pi = site.categories.team | where: "category","Principal Investigator"%}
@@ -38,13 +38,13 @@ permalink: /team/
 	    </div>
 	</div>
     </div>
-    </div> <!-- close row -->
-{% endfor %}
+    </div>
+{% endfor %} -->
 
 <div class="bigspacer"></div>
-<div class="title subtle">Lab members</div>
+<!-- <div class="title subtle">Lab members</div> -->
 <div class="bigspacer"></div>
-{% assign current_team = site.categories.team | where: "category","member"%}
+{% assign current_team = site.categories.team | where: "alum","false"%}
 {% assign memberindex = 0 %}
 {% for member in current_team%}
 	{% assign memberindex = memberindex | plus: 1 %}
