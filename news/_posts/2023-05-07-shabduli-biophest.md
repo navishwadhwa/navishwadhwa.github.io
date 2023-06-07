@@ -7,4 +7,4 @@ author_handle: "navish"
 category: news
 tags: [people]
 ---
-Shabduli wins an award for presenting a poster on her work at [BioPhest 2023](https://cbp.asu.edu/content/biophest-workshops){:target="_blank"}. Congratulations, Shabduli! 
+Shabduli won an award for presenting a poster on her work at [BioPhest 2023](https://cbp.asu.edu/content/biophest-workshops){:target="_blank"}. Congratulations, Shabduli! 
