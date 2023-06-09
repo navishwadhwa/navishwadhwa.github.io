@@ -4,7 +4,7 @@ Our website, http://wadhwalab.com, is a [GitHub Pages](https://pages.github.com/
 
 # Editing the site
 
-Here's a step-by-step guide to making modifications to the site, focused initially on adding typical content. You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies installed. For now, if you need help getting set up, ask someone who's already up and running.
+Here is a basic guide to making modifications to the site, focused on adding typical content. You'll need a working Unix-like environment and working knowledge of [Git](https://git-scm.com/){:target="_blank"}, [Markdown](https://daringfireball.net/projects/markdown/syntax){:target="_blank"}, [HTML](https://www.w3schools.com/html/){:target="_blank"}, and a few basic [Unix commands](https://mally.stanford.edu/~sr/computing/basic-unix.html){:target="_blank"}. You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies installed. For now, if you need help getting set up, ask someone who's already up and running.
 
 ## Clone the repository
 
