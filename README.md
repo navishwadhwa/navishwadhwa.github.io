@@ -42,7 +42,7 @@ You will now create a new branch for the changes you want to make to the website
 	git branch <feature>
 	git switch <feature>
 
-Here, "feature" can be anything from "news" for adding a news item, to "typo" for fixing a typo, and so on.	Once on this branch, go ahead and make changes to the website. Be sure to stage and commit your changes regularly and push these changes to remote, i.e., the GitHub repo. 
+Here, "feature" can be anything from "news" for adding a news item, to "typo" for fixing a typo, and so on.	Once on this branch, go ahead and make changes to the website (see below). Be sure to stage and commit your changes regularly and push these changes to remote, i.e., the GitHub repo. 
 
 ## Create a pull request
 
@@ -57,78 +57,61 @@ To delete the branch on your computer, run `git branch --delete <feature>`. Then
 # Website content
 ## Overview of the structure
 
-Let's assume you're familiar with HTML pages. A site is a collection of HTML pages. For our site (and many others), there are page types, like a paper page, or a lab member page, which are the same in design but different in content. In the web-accessible site, these are indeed different pages. However, as you might hope, they are _generated_ from a single template file filled in with information from many paper- or member-specific data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
+Let's assume you're familiar with HTML pages. A site is a collection of HTML pages. For our site (and many others), there are page types, like a paper page, or a lab member page, which are the same in design but different in content. In the web-accessible site, these are indeed different pages. However, as you might hope, they are _generated_ from a single template file filled in with information from many paper- or member-specific data files. This generation is done every time the site changes; it is handled by GitHub Pages, the service we use.
 
 The template files are weird-looking HTML files residing in the `_includes/themes/lab` folder.
 
 ## How to add content
 
-For most common actions, such as adding a lab member, a new paper, or a news item, you will create a new Markdown file in the proper location, name it properly, and fill in the required fields. In almost all cases, you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
+For most common actions, such as adding a lab member, a new paper, or a news item, you will create a new Markdown file in the proper location, name it properly, and fill in the required fields. The best way to do this is to copy an existing item, change the name, and change its content.
 
-For example, suppose you want to add a news item, which will appear on the front page, announcing that you have created a yeast strain capable of secreting high-quality chardonnay. Go into the `news/_posts` folder. Copy one of the existing items into a new file named with today's date (it matters!) and a brief title:
+For example, suppose you want to add a news item, to appear on the front page. To do this, go into the `news/_posts` folder. Copy one of the existing items into a new file named *with today's date* and a brief title. Here is an example doing this using command line,
 
-	cp 2017-12-15-allan-tenure.md 2020-01-31-wine-yeast.md
+	cp 2020-07-30-navish-gets-k99.md 2023-06-09-amazing-discovery.md
 
-The date is used by the generator; it's inelegant and perhaps there's a way to do it differently, but that's how it is for now. Now edit the new file to make the content what you want. Just open it in your favorite editor and type away. By the time you're done, hopefully you have something like this:
+The date string in the file name is used by the generator to date and to order the items. Now edit the new file in the editor of your choice to make the content what you want. After editing, it should look like this:
 
 	---
 	layout: news
-	title: "New yeast strain makes chardonnay"
-	author: "X. Obsequious Trenchant"
-	author_handle: "xot"
-	image: /assets/images/news/default-news.png
+	title: "Amazing discovery"
+	author: "Navish Wadhwa"
+	author_handle: "nw"
+	image: /assets/images/news/news-image.png
 	category: news
 	tags: [breakthrough]
 	---
-	Today we are thrilled to announce a new strain of yeast that secretes beautifully oaked chardonnay. See more details in our [preprint](http://biorxiv.org/content/10.1101/0000000)!
+	Lab member ABC made the amazing discovery XYZ, published today in journal [your favorite journal](http://journal.com/content/doi)!
 
-Now add it to the repository:
+Add the file to the repository:
 
-	git add 2020-01-31-wine-yeast.md
+	git add 2023-06-09-amazing-discovery.md
 
 And, when you're happy with it, commit and push:
 
-	git commit -m "announcing new yeast strain"
+	git commit -m "added news about discovery"
 	git push
 
-This new announcement won't yet be public. The next section shows you how to do that.
+The same basic process is used to add papers, team members, etc.
 
-The same basic process is used to add protocols, team members, etc.
-
-## Updating the public site
-
-All edits should be made on the `staging` branch. When you start work, make sure you're on the staging branch:
-
-	git checkout staging
+## Previewing your changes
 
 Once your edits are done, preview the site. Generate the pages and start the private webserver:
 
-	rake preview
+	bundle exec jekyll serve
 
-...and then open the local test site, http://127.0.0.1:4000. Look at anything you've changed and make sure it's good to go.
+...and then open the local test site, http://127.0.0.1:4000. Look at anything you've changed and make sure it's good to go. Once everything looks good, follow the process described above to create a pull request and merge the branch into `main`.
 
-Then move the changes to the `master` branch:
+Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://wadhwalab.com looks the way you intend.
 
-	git checkout master
-	git merge staging
+Finally, delete the feature branch and call it a day.
 
-and push to GitHub:
+## Next steps
 
-	git push
-
-Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://drummondlab.org looks the way you intend.
-
-Finally, check out `staging` again so that you don't accidentally start working on the `master` branch the next time you sit down:
-
-	git checkout staging
-
-## Changing look and feel
-
-Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, we use Cascading Style Sheets (CSS), 
+To go to the next level, familiarize yourself with HTML and CSS. Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, these use Cascading Style Sheets (CSS). These and other more advanced settings are found in \assets\themes.  
 
 ### To-dos
 
-See Issues on [the site](https://github.com/drummondlab/drummondlab.github.io).
+See Issues on [the site](https://github.com/navishwadhwa/navishwadhwa.github.io).
 
 
 ## License
