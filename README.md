@@ -2,97 +2,121 @@
 
 Our website, http://wadhwalab.com, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [D. Allan Drummond's website](https://drummondlab.org/).
 
-# Editing the site
+What follows is a basic guide to making modifications to the site, focused on adding typical content.
 
-Here's a step-by-step guide to making modifications to the site, focused initially on adding typical content. You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies installed. For now, if you need help getting set up, ask someone who's already up and running.
+# Prerequisites
 
-## Clone the repository
+ You will need working knowledge of [Git](https://git-scm.com/), [GitHub](https://github.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax), [HTML](https://www.w3schools.com/html/), and (possibly) a few basic [Unix commands](https://mally.stanford.edu/~sr/computing/basic-unix.html). You will need [Jekyll](https://jekyllrb.com/) (which in turn requires [Ruby](https://www.ruby-lang.org/en/downloads/)  and [RubyGems](https://rubygems.org/pages/download)). If you need help getting set up, ask someone who is already up and running.
 
-If you're a member of the [Drummond Lab team](https://github.com/orgs/drummondlab/teams/drummond-lab-team), you have access to the website repository.
+To execute Git and Unix commands on your computer, you will need a terminal (aka command prompt, command shell, and command line). Here are some options:
 
-To clone the repository, making a local copy on your machine:
+- For macOS:
+	- Built-in Terminal. Press `⌘ command` + `space` and type terminal.
+	- [iTerm2](https://iterm2.com/), which can be integrated with [Zsh and Oh My Zsh](https://medium.com/ayuth/iterm2-zsh-oh-my-zsh-the-most-power-full-of-terminal-on-macos-bdb2823fb04c) for some great features.
+- For Windows:
+	- [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701), integrated with [Oh My Posh](https://ohmyposh.dev/) for some great features.
+	- Git Bash. It is built into [Git for Windows](https://gitforwindows.org/).
+- For Linux users:
+	- [Built-in Linux Terminal](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal)
 
-	git clone git@github.com:drummondlab/drummondlab.github.io
+If you have all the software installed and a basic knowledge of the tools, it is time to get started!
 
-Enter your local repository and check out the `staging` branch, where you'll make changes before promoting them to the `master` branch and publishing them:
+# Git workflow
 
-	cd drummondlab.github.io
-	git checkout staging
+Note: While I describe the following using several command line tools,  almost everything here can be achieved using a good GUI-based editor like [VS Code](https://code.visualstudio.com/). Indeed, this is my own preferred tool.
 
+## Cloning the repository
+
+If you're a member of the [Wadhwa Lab](https://wadhwalab.com/team/), please contact Navish to request collaborator access to the website repository. Once the access is granted, you are ready to edit the site.
+
+Clone the repository, i.e., make a local copy on your machine:
+
+	git clone https://github.com/navishwadhwa/navishwadhwa.github.io.git
+
+To start, you should be on the `main` branch. In most cases, this should be the only branch in the repo when you begin working. Enter the repo using `cd` and "checkout" the `main` branch.
+
+	cd navishwadhwa.github.io
+	git checkout main
+
+## Creating a feature branch
+You will now create a new branch for the changes you want to make to the website. 
+
+	git branch <feature>
+	git switch <feature>
+
+Here, "feature" can be anything from "news" for adding a news item, to "typo" for fixing a typo, and so on.	Once on this branch, go ahead and make changes to the website (see below). Be sure to stage and commit your changes regularly and push these changes to remote, i.e., the GitHub repo. 
+
+## Creating a pull request
+
+When you are ready to publish your changes, you would want to create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to merge your changes into the `main` branch. To do so, head over to the [GitHub repo](https://github.com/navishwadhwa/navishwadhwa.github.io) and [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Someone else will then review your changes and potentially ask for some tweaks. Once the pull request is closed and the branches are merged, your changes will go live in a few minutes.
+
+## Deleting the feature branch
+
+Once the pull request is closed and your changes are live, the feature branch has served its purpose. At this stage, you should delete the feature branch [on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#deleting-a-branch) as well as on your computer.
+
+To delete the branch on your computer, run `git branch --delete <feature>`. Then run `git branch -a` to verify the feature branch is deleted. To clean up remote branches that no longer exist, run `git fetch -p`. 
+
+# Modifying website content
 ## Overview of the structure
 
-Let's assume you're familiar with HTML pages. A site is a collection of HTML pages. For our site (and many others), there are page types, like a paper page, or a lab member page, which are the same in design but different in content. In the web-accessible site, these are indeed different pages. However, as you might hope, they are _generated_ from a single template file filled in with information from many paper- or member-specific data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
+Let's assume you're familiar with HTML pages. A site is a collection of HTML pages. For our site (and many others), there are page types, like a paper page, or a lab member page, which are the same in design but different in content. In the web-accessible site, these are indeed different pages. However, as you might hope, they are _generated_ from a single template file filled in with information from many paper- or member-specific data files. This generation is done every time the site changes; it is handled by GitHub Pages, the service we use.
 
 The template files are weird-looking HTML files residing in the `_includes/themes/lab` folder.
 
 ## How to add content
 
-For most common actions---adding a lab member, paper, protocol, or news item---you'll be making a new Markdown file in the proper location, naming it properly, and filling in the required fields. In almost all cases, you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
+For most common actions, such as adding a lab member, a new paper, or a news item, you will create a new Markdown file in the proper location, name it properly, and fill in the required fields. The best way to do this is to copy an existing item, change the name, and change its content.
 
-For example, suppose you want to add a news item, which will appear on the front page, announcing that you have created a yeast strain capable of secreting high-quality chardonnay. Go into the `news/_posts` folder. Copy one of the existing items into a new file named with today's date (it matters!) and a brief title:
+For example, suppose you want to add a news item, to appear on the front page. To do this, go into the `news/_posts` folder. Copy one of the existing items into a new file named *with today's date* and a brief title. Here is an example doing this using command line,
 
-	cp 2017-12-15-allan-tenure.md 2020-01-31-wine-yeast.md
+	cp 2020-07-30-navish-gets-k99.md 2023-06-09-amazing-discovery.md
 
-The date is used by the generator; it's inelegant and perhaps there's a way to do it differently, but that's how it is for now. Now edit the new file to make the content what you want. Just open it in your favorite editor and type away. By the time you're done, hopefully you have something like this:
+The date string in the file name is used by the generator to date and to order the items. Now edit the new file in the editor of your choice to make the content what you want. After editing, it should look like this:
 
 	---
 	layout: news
-	title: "New yeast strain makes chardonnay"
-	author: "X. Obsequious Trenchant"
-	author_handle: "xot"
-	image: /assets/images/news/default-news.png
+	title: "Amazing discovery"
+	author: "Navish Wadhwa"
+	author_handle: "nw"
+	image: /assets/images/news/news-image.png
 	category: news
 	tags: [breakthrough]
 	---
-	Today we are thrilled to announce a new strain of yeast that secretes beautifully oaked chardonnay. See more details in our [preprint](http://biorxiv.org/content/10.1101/0000000)!
+	Lab member ABC made the amazing discovery XYZ, published today in journal [your favorite journal](http://journal.com/content/doi)!
 
-Now add it to the repository:
+Add the file to the repository:
 
-	git add 2020-01-31-wine-yeast.md
+	git add 2023-06-09-amazing-discovery.md
 
 And, when you're happy with it, commit and push:
 
-	git commit -m "announcing new yeast strain"
+	git commit -m "added news about discovery"
 	git push
 
-This new announcement won't yet be public. The next section shows you how to do that.
+The same basic process is used to add papers, team members, etc.
 
-The same basic process is used to add protocols, team members, etc.
-
-## Updating the public site
-
-All edits should be made on the `staging` branch. When you start work, make sure you're on the staging branch:
-
-	git checkout staging
+## Previewing your changes
 
 Once your edits are done, preview the site. Generate the pages and start the private webserver:
 
-	rake preview
+	bundle exec jekyll serve
 
-...and then open the local test site, http://127.0.0.1:4000. Look at anything you've changed and make sure it's good to go.
+...and then open the local test site, http://127.0.0.1:4000. Look at anything you've changed and make sure it works as intended. You can continue making further changes while viewing them live in local test site. Just remember to stage and commit regularly. 
 
-Then move the changes to the `master` branch:
+## Publishing
+Once everything looks good, follow the process described above to create a pull request and merge the branch into `main`.
 
-	git checkout master
-	git merge staging
+Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://wadhwalab.com looks the way you intend.
 
-and push to GitHub:
+Finally, delete the feature branch and call it a day.
 
-	git push
+# Next steps
 
-Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://drummondlab.org looks the way you intend.
-
-Finally, check out `staging` again so that you don't accidentally start working on the `master` branch the next time you sit down:
-
-	git checkout staging
-
-## Changing look and feel
-
-Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, we use Cascading Style Sheets (CSS), 
+To go to the next level, familiarize yourself with HTML and CSS. Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, these use Cascading Style Sheets (CSS). These and other more advanced settings are found in `\assets\themes` folder.  
 
 ### To-dos
 
-See Issues on [the site](https://github.com/drummondlab/drummondlab.github.io).
+See Issues on [the site](https://github.com/navishwadhwa/navishwadhwa.github.io).
 
 
 ## License
