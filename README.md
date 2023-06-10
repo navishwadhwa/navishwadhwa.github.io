@@ -6,7 +6,7 @@ What follows is a basic guide to making modifications to the site, focused on ad
 
 # Prerequisites
 
- You will need working knowledge of [Git](https://git-scm.com/){:target="_blank"}, [GitHub](https://github.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax){:target="_blank"}, [HTML](https://www.w3schools.com/html/){:target="_blank"}, and (possibly) a few basic [Unix commands](https://mally.stanford.edu/~sr/computing/basic-unix.html){:target="_blank"}. You will need [Jekyll](https://jekyllrb.com/) (which in turn requires [Ruby](https://www.ruby-lang.org/en/downloads/)  and [RubyGems](https://rubygems.org/pages/download)). If you need help getting set up, ask someone who is already up and running.
+ You will need working knowledge of [Git](https://git-scm.com/), [GitHub](https://github.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax), [HTML](https://www.w3schools.com/html/), and (possibly) a few basic [Unix commands](https://mally.stanford.edu/~sr/computing/basic-unix.html). You will need [Jekyll](https://jekyllrb.com/) (which in turn requires [Ruby](https://www.ruby-lang.org/en/downloads/)  and [RubyGems](https://rubygems.org/pages/download)). If you need help getting set up, ask someone who is already up and running.
 
 To execute Git and Unix commands on your computer, you will need a terminal (aka command prompt, command shell, and command line). Here are some options:
 
