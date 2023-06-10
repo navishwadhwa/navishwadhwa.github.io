@@ -11,7 +11,7 @@ What follows is a basic guide to making modifications to the site, focused on ad
 To execute Git and Unix commands on your computer, you will need a terminal (aka command prompt, command shell, and command line). Here are some options:
 
 - For macOS:
-	- Built-in Terminal. Press ⌘ command + space and type terminal.
+	- Built-in Terminal. Press `⌘ command` + `space` and type terminal.
 	- [iTerm2](https://iterm2.com/), which can be integrated with [Zsh and Oh My Zsh](https://medium.com/ayuth/iterm2-zsh-oh-my-zsh-the-most-power-full-of-terminal-on-macos-bdb2823fb04c) for some great features.
 - For Windows:
 	- [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701), integrated with [Oh My Posh](https://ohmyposh.dev/) for some great features.
@@ -23,16 +23,28 @@ If you have all the software installed and a basic knowledge of the tools, it is
 
 ## Clone the repository
 
-If you're a member of the [Drummond Lab team](https://github.com/orgs/drummondlab/teams/drummond-lab-team), you have access to the website repository.
+If you're a member of the [Wadhwa Lab](https://wadhwalab.com/team/), please contact Navish to request collaborator access to the website repository. Once the access is granted, you are ready to edit the site.
 
-To clone the repository, making a local copy on your machine:
+Clone the repository, i.e., make a local copy on your machine:
 
-	git clone git@github.com:drummondlab/drummondlab.github.io
+	git clone https://github.com/navishwadhwa/navishwadhwa.github.io.git
 
-Enter your local repository and check out the `staging` branch, where you'll make changes before promoting them to the `master` branch and publishing them:
+To start, you should be on the `main` branch. In most cases, this should be the only branch in the repo when you begin working. Enter the repo using `cd` and "checkout" the `main` branch.
 
-	cd drummondlab.github.io
-	git checkout staging
+	cd navishwadhwa.github.io
+	git checkout main
+
+## Create a feature branch
+You will now create a new branch for the changes you want to make to the website. 
+
+	git branch feature
+	git switch feature
+
+Here, "feature" can be anything from "news" for adding a news item, to "typo" for fixing a typo, and so on.	Once on this branch, go ahead and make changes to the website. Be sure to stage and commit your changes regularly and push these changes to remote, i.e., the GitHub repo. 
+
+## Create a pull request
+
+When you are ready to publish your changes, you would want to create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to merge your changes into the `main` branch. To do so, head over to the [GitHub repo](https://github.com/navishwadhwa/navishwadhwa.github.io) and [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Someone else will then review your changes and potentially ask for some tweaks. Once the pull request is closed and the branches are merged, your changes will go live in a few minutes. At this stage, you should delete the feature branch on both GitHub and on your computer.
 
 ## Overview of the structure
 
