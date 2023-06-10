@@ -2,9 +2,24 @@
 
 Our website, http://wadhwalab.com, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [D. Allan Drummond's website](https://drummondlab.org/).
 
-# Editing the site
+What follows is a basic guide to making modifications to the site, focused on adding typical content.
 
-Here is a basic guide to making modifications to the site, focused on adding typical content. You'll need a working Unix-like environment and working knowledge of [Git](https://git-scm.com/){:target="_blank"}, [Markdown](https://daringfireball.net/projects/markdown/syntax){:target="_blank"}, [HTML](https://www.w3schools.com/html/){:target="_blank"}, and a few basic [Unix commands](https://mally.stanford.edu/~sr/computing/basic-unix.html){:target="_blank"}. You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies installed. For now, if you need help getting set up, ask someone who's already up and running.
+# Prerequisites
+
+ You will need working knowledge of [Git](https://git-scm.com/){:target="_blank"}, [GitHub](https://github.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax){:target="_blank"}, [HTML](https://www.w3schools.com/html/){:target="_blank"}, and (possibly) a few basic [Unix commands](https://mally.stanford.edu/~sr/computing/basic-unix.html){:target="_blank"}. You will need [Jekyll](https://jekyllrb.com/) (which in turn requires [Ruby](https://www.ruby-lang.org/en/downloads/)  and [RubyGems](https://rubygems.org/pages/download)). If you need help getting set up, ask someone who is already up and running.
+
+To execute Git and Unix commands on your computer, you will need a terminal (aka command prompt, command shell, and command line). Here are some options:
+
+- For macOS:
+	- Built-in Terminal. Press ⌘ command + space and type terminal.
+	- [iTerm2](https://iterm2.com/), which can be integrated with [Zsh and Oh My Zsh](https://medium.com/ayuth/iterm2-zsh-oh-my-zsh-the-most-power-full-of-terminal-on-macos-bdb2823fb04c) for some great features.
+- For Windows:
+	- [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701), integrated with [Oh My Posh](https://ohmyposh.dev/) for some great features.
+	- Git Bash. It is built into [Git for Windows](https://gitforwindows.org/).
+- For Linux users:
+	- [Built-in Linux Terminal](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal)
+
+If you have all the software installed and a basic knowledge of the tools, it is time to get started!
 
 ## Clone the repository
 
