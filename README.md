@@ -110,7 +110,7 @@ Changes won't be immediate, so wait a minute or two while GitHub's servers regen
 
 Finally, delete the feature branch and call it a day.
 
-## Next steps
+# Next steps
 
 To go to the next level, familiarize yourself with HTML and CSS. Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, these use Cascading Style Sheets (CSS). These and other more advanced settings are found in `\assets\themes` folder.  
 
