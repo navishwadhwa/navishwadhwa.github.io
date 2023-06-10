@@ -23,7 +23,9 @@ If you have all the software installed and a basic knowledge of the tools, it is
 
 # Git workflow
 
-## Clone the repository
+Note: While I describe the following using several command line tools,  almost everything here can be achieved using a good GUI-based editor like [VS Code](https://code.visualstudio.com/). Indeed, this is my own preferred tool.
+
+## Cloning the repository
 
 If you're a member of the [Wadhwa Lab](https://wadhwalab.com/team/), please contact Navish to request collaborator access to the website repository. Once the access is granted, you are ready to edit the site.
 
@@ -36,7 +38,7 @@ To start, you should be on the `main` branch. In most cases, this should be the 
 	cd navishwadhwa.github.io
 	git checkout main
 
-## Create a feature branch
+## Creating a feature branch
 You will now create a new branch for the changes you want to make to the website. 
 
 	git branch <feature>
@@ -44,17 +46,17 @@ You will now create a new branch for the changes you want to make to the website
 
 Here, "feature" can be anything from "news" for adding a news item, to "typo" for fixing a typo, and so on.	Once on this branch, go ahead and make changes to the website (see below). Be sure to stage and commit your changes regularly and push these changes to remote, i.e., the GitHub repo. 
 
-## Create a pull request
+## Creating a pull request
 
 When you are ready to publish your changes, you would want to create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to merge your changes into the `main` branch. To do so, head over to the [GitHub repo](https://github.com/navishwadhwa/navishwadhwa.github.io) and [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Someone else will then review your changes and potentially ask for some tweaks. Once the pull request is closed and the branches are merged, your changes will go live in a few minutes.
 
-## Delete the branch
+## Deleting the feature branch
 
 Once the pull request is closed and your changes are live, the feature branch has served its purpose. At this stage, you should delete the feature branch [on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#deleting-a-branch) as well as on your computer.
 
 To delete the branch on your computer, run `git branch --delete <feature>`. Then run `git branch -a` to verify the feature branch is deleted. To clean up remote branches that no longer exist, run `git fetch -p`. 
 
-# Website content
+# Modifying website content
 ## Overview of the structure
 
 Let's assume you're familiar with HTML pages. A site is a collection of HTML pages. For our site (and many others), there are page types, like a paper page, or a lab member page, which are the same in design but different in content. In the web-accessible site, these are indeed different pages. However, as you might hope, they are _generated_ from a single template file filled in with information from many paper- or member-specific data files. This generation is done every time the site changes; it is handled by GitHub Pages, the service we use.
@@ -99,7 +101,10 @@ Once your edits are done, preview the site. Generate the pages and start the pri
 
 	bundle exec jekyll serve
 
-...and then open the local test site, http://127.0.0.1:4000. Look at anything you've changed and make sure it's good to go. Once everything looks good, follow the process described above to create a pull request and merge the branch into `main`.
+...and then open the local test site, http://127.0.0.1:4000. Look at anything you've changed and make sure it works as intended. You can continue making further changes while viewing them live in local test site. Just remember to stage and commit regularly. 
+
+## Publishing
+Once everything looks good, follow the process described above to create a pull request and merge the branch into `main`.
 
 Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://wadhwalab.com looks the way you intend.
 
@@ -107,7 +112,7 @@ Finally, delete the feature branch and call it a day.
 
 ## Next steps
 
-To go to the next level, familiarize yourself with HTML and CSS. Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, these use Cascading Style Sheets (CSS). These and other more advanced settings are found in \assets\themes.  
+To go to the next level, familiarize yourself with HTML and CSS. Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, these use Cascading Style Sheets (CSS). These and other more advanced settings are found in `\assets\themes` folder.  
 
 ### To-dos
 
