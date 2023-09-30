@@ -2,7 +2,7 @@
 layout: member
 title: "Rebecca Osar"
 category: member 
-position: Undergraduate Student
+position: Graduate Student, Cornell
 nickname: Rebecca
 handle: osar
 email: rosar1@asu.edu
