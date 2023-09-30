@@ -9,7 +9,7 @@ email: carolina.gogerty@asu.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/scientist-female.png
+image: /assets/images/team/carolina.jpg
 cv: 
 alum: false
 ---
