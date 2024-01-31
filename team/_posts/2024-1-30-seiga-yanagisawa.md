@@ -14,4 +14,4 @@ cv: /assets/pdfs/CV_Seiga_Yanagisawa_January_2024.pdf
 alum: false
 ---
 
-I'm a postdoctoral reaearcher with a background in molecular biology. As a Ph.D. student, I worked on single-molecule measurementg of the rotation of the ATP synthase. I want to apply what I learned in my Ph.D to study the bacterial flagellar motor which is another proton gradient-drivem molecular motor.
+I'm a postdoctoral reaearcher with a background in molecular biology. As a Ph.D. student, I worked on single-molecule measurement of the rotation of the ATP synthase. I want to apply what I learned in my Ph.D to study the bacterial flagellar motor which is another proton gradient-drivem molecular motor.
