@@ -7,4 +7,4 @@ author_handle: "navish"
 category: news
 tags: [people]
 ---
-Seiga Yanagisawa joins the lab as a Postdoctoral Researcher. Welcome, Seiga! 
+Seiga Yanagisawa joins the lab as a Postdoctoral Fellow. Welcome, Seiga! 
