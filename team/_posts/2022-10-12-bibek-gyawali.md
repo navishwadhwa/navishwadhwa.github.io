@@ -2,7 +2,7 @@
 layout: member
 title: "Bibek Gyawali"
 category: member
-position: Rotation Student
+position: Graduate Student, ASU
 nickname: Bibek
 handle: Bibek
 email: bgyawal2@asu.edu
