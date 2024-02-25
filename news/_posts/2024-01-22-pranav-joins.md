@@ -7,4 +7,4 @@ author_handle: "navish"
 category: news
 tags: [people]
 ---
-Pranav Sharma joins the lab as a Lab Technician. Welcome, Pranav! 
+Pranav Sharma joins the lab as a Lab Aide. Welcome, Pranav! 

@@ -2,7 +2,7 @@
 layout: member
 title: "Pranav Sharma"
 category: member
-position: Lab Technician
+position: Lab Aide
 nickname: Pranav
 handle: 
 email: pshar111@asu.edu
