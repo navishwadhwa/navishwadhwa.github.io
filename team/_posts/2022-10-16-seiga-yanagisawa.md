@@ -9,7 +9,7 @@ email: syanagi1@asu.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/new.jpg
+image: /assets/images/team/Seiga-Yanagisawa.jpg
 cv: /assets/pdfs/CV_Seiga_Yanagisawa_January_2024.pdf
 alum: false
 ---

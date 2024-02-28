@@ -2,7 +2,7 @@
 layout: member
 title: "Rekha Joshi"
 category: member 
-position: Rotation Student
+position: Graduate Student, ASU
 nickname: Rekha
 handle: rekha
 email: rjoshi44@asu.edu
