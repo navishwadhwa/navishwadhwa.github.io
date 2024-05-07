@@ -1,8 +1,8 @@
 ---
 layout: news
 title: "Frances heads off to NAU"
-author: "Navish Wadhwa"
-author_handle: "navish"
+author: "Luis Meneses"
+author_handle: "luis"
 # image: /assets/images/news/microscope.jpg
 category: news
 tags: [people]
