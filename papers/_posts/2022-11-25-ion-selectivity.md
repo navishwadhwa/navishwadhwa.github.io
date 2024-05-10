@@ -1,28 +1,28 @@
 ---
 layout: paper
-title: "Mechanisms of ion selectivity and rotor coupling in the bacterial flagellar sodium-driven stator unit"
-year: "2022"
-shortref: "Hu et al., <i>BioRxiv</i> 2022"
+title: "Ion selectivity and rotor coupling of the Vibrio flagellar sodium-driven stator unit"
+year: "2023"
+shortref: "Hu et al., <i>Nat Comm</i> 2022"
 nickname: ion-selectivity
-journal: "BioRxiv"
-volume: 
+journal: "Nat Comm"
+volume: 14
 issue: 
-pages: 
-authors: "Hu H, Popp PF, Santiveri M, Roa-Eguiara A, Yan Y, Liu Z Wadhwa N, Wang Y, Erhardt M, Taylor NMI"
+pages: 4411
+authors: "Hu H, Popp PF, Santiveri M, Roa-Eguiara A, Yan Y, Martin FJO, Liu Z Wadhwa N, Wang Y, Erhardt M, Taylor NMI"
 image: /assets/images/papers/ion-selectivity.png
-fulltext: https://www.biorxiv.org/content/10.1101/2022.11.25.517900v1.full
+fulltext: https://www.nature.com/articles/s41467-023-39899-z
 pdf: 
-pdflink: https://www.biorxiv.org/content/10.1101/2022.11.25.517900v1.full.pdf
+pdflink: https://www.nature.com/articles/s41467-023-39899-z.pdf
 github: 
 pmid: 
 pmcid: 
 f1000: 
 figshare: 
-doi: 10.1101/2022.11.25.517900
+doi: 10.1038/s41467-023-39899-z
 category: paper
 published: true
 peerreview: false
-preprint: true
+preprint: false
 review: false
 tags: [bacterial flagellar motor, stator unit, ion selectivity, sodium]
 ---
