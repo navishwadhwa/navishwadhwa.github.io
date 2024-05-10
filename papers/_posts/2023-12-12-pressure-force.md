@@ -2,7 +2,7 @@
 layout: paper
 title: "Estimating the pressure force around swimming plankton using micro particle image velocimetry"
 year: "2023"
-shortref: "Ergin et al., <i>Fluid Dynamics Research</i> 2023"
+shortref: "Ergin et al., <i>Fluid Dyn Res</i> 2023"
 nickname: pressure-force
 journal: "Fluid Dynamics Research"
 volume:
