@@ -2,7 +2,7 @@
 layout: paper
 title: "Ion selectivity and rotor coupling of the Vibrio flagellar sodium-driven stator unit"
 year: "2023"
-shortref: "Hu et al., <i>Nat Comm</i> 2022"
+shortref: "Hu et al., <i>Nat Comm</i> 2023"
 nickname: ion-selectivity
 journal: "Nat Comm"
 volume: 14
