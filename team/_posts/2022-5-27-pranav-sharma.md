@@ -9,7 +9,7 @@ email: pshar111@asu.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/scientist-male.png
+image: /assets/images/team/pranav-sharma.jpeg
 cv: 
 alum: false
 ---
