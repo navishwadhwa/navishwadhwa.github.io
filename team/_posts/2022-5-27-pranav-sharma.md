@@ -13,4 +13,4 @@ image: /assets/images/team/pranav-sharma.jpeg
 cv: 
 alum: false
 ---
-
+I'm a Junior in Mechanical Engineering and Astrophysics, with interests in Finite Element Analysis and Structural Design Mechanics. My role includes designing, testing, and fabricating custom setups required for projects in the Wadhwa Lab.
