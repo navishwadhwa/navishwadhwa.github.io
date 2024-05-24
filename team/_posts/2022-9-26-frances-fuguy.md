@@ -2,7 +2,7 @@
 layout: member
 title: "Frances Fuguy"
 category: member 
-position: Undergraduate Student
+position: Graduate Student, NAU
 nickname: frances
 handle: frances
 email: ffaguy@asu.edu
