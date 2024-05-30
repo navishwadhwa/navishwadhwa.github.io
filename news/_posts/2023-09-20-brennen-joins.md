@@ -1,3 +1,4 @@
+---
 layout: news
 title: "Brennen joins the lab"
 author: "Brennen Wise"
