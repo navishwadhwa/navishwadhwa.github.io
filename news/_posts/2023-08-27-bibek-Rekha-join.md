@@ -8,4 +8,4 @@ category: news
 tags: [people]
 ---
 
-Rekha Joshi and Bibek Gyawali join the lab as rotation graduate students. Rekha and Bibek are interested to learn more on bacterial motility. Welcome!
+Rekha Joshi and Bibek Gyawali join the lab as rotation graduate students. Welcome!
