@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "Rebecca and Eric join the lab"
+title: "Bibek and Rekha join the lab"
 author: "Luis Meneses"
 author_handle: "luis"
 # image: /assets/images/news/microscope.jpg
