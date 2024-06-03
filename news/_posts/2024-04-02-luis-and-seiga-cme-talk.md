@@ -10,4 +10,4 @@ tags: [people]
 
 Luis Meneses and Seiga Yanagisawa presented insights from their research at the weekly BII-MCE (Biological Integration Institute for Mechanisms of Cellular Evolution) seminar series. 
 
-![Luis and Seiga's CME talk](/assets/images/news/luis-seiga-cmetalk-april24.jpg)
+![Luis and Seiga's CME talk](/assets/images/news/luis-seiga-cmetalk-april24-ed.jpg)
