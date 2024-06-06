@@ -7,6 +7,7 @@ author_handle: "seiga"
 category: news
 tags: [people]
 ---
+
 Prasanth Manohar from Ry Young's lab at Texas A&M University visits our lab for two weeks 
 for a collaborative project. He will be investigating the effect 
 of Lambdoid phage S21 infection on E. coli proton motive force. Welcome Prasanth!
