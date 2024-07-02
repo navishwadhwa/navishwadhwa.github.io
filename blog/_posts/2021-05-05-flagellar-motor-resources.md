@@ -20,6 +20,10 @@ Following up on the @APSDBIO [tweetorial](https://twitter.com/ApsDbio/status/139
 
 [Nakamura and Minamino 2019](https://www.mdpi.com/2218-273X/9/7/279){:target="_blank"}
 
+[Beeby et al. 2020](https://academic.oup.com/femsre/article/44/3/253/5800988){:target="_blank"}
+
+[Wadhwa and Berg 2022](https://www.nature.com/articles/s41579-021-00626-4){:target="_blank"}
+
 ### Structures
 [Santiveri et al. 2020](https://www.sciencedirect.com/science/article/pii/S0092867420310072){:target="_blank"}
 
