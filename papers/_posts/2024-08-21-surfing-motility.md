@@ -4,7 +4,7 @@ title: "Surfing Motility: A Novel Propulsion-Independent Mechanism for Surface M
 year: "2023"
 shortref: "Panich et al., <i>BioarXiv</i> 2024"
 nickname: surfing-motility
-journal: "BioarXiv"
+journal: "BiorXiv"
 volume:
 issue:
 pages:
