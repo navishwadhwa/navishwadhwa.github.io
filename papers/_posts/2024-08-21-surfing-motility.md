@@ -9,7 +9,7 @@ volume:
 issue:
 pages:
 authors: "Panich J, Dudebout EM, Wadhwa N, Blair DF"
-image: /assets/images/papers/surfing_motility.png
+image: /assets/images/papers/swashing-vid.gif 
 fulltext: https://www.biorxiv.org/content/10.1101/2024.08.21.609010v1
 pdf:
 pdflink: https://www.biorxiv.org/content/10.1101/2024.08.21.609010v1.full.pdf
