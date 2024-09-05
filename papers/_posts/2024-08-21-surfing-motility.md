@@ -2,9 +2,9 @@
 layout: paper
 title: "Surfing Motility: A Novel Propulsion-Independent Mechanism for Surface Migration in <i>Salmonella</i> and <i>E. coli</i>"
 year: "2023"
-shortref: "Panich et al., <i>BioarXiv</i> 2024"
+shortref: "Panich et al., <i>biorXiv</i> 2024"
 nickname: surfing-motility
-journal: "BiorXiv"
+journal: "biorXiv"
 volume:
 issue:
 pages:
