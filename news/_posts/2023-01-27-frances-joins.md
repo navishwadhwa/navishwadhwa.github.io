@@ -7,4 +7,4 @@ author_handle: "navish"
 category: news
 tags: [people]
 ---
-Frances Fuguy joins the lab as an undergraduate researcher. Frances is a microbiology major at Barrett, The Honors College. She will assist Shabduli on studying the interactions of bacteria with surfaces.
+Frances Faguy joins the lab as an undergraduate researcher. Frances is a microbiology major at Barrett, The Honors College. She will assist Shabduli on studying the interactions of bacteria with surfaces.
