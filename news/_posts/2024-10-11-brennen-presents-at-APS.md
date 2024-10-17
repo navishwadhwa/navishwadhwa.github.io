@@ -3,7 +3,7 @@ layout: news
 title: "Brennen presents at the American Physical Society's (APS) Four Corners Meeting"
 author: "Shabduli Sawant"
 author_handle: "shabduli"
-# image: /assets/images/news/
+image: /assets/images/news/brennen-APS-2024.jpg
 category: news
 tags: [people]
 ---
