@@ -7,4 +7,4 @@ author_handle: "carolina"
 category: news
 tags: [people]
 ---
-Farhad Javi joins the lab as a Postdoctoral Fellow. He will be working on microfluidic devices. Welcome, Farhad! 
+Farhad Javi joins the lab as a Postdoctoral Fellow. He will be working on using microfluidics to investigate bacterial interactions with flows. Welcome, Farhad! 
