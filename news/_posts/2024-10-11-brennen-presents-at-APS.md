@@ -7,4 +7,4 @@ author_handle: "shabduli"
 category: news
 tags: [people]
 ---
-Brennen presented a poster at this year's APS Four Corners Section Annual Meeting which was held at the Northern Arizona University. 
+Brennen presented a poster at this year's APS's Four Corners Section Annual Meeting which was held at the Northern Arizona University. 
