@@ -10,5 +10,7 @@ tags: [people]
 
 Brennen and Carolina gave a talk at the weekly BII-MCE (Biological Integration Institute for Mechanisms of Cellular Evolution) seminar series. Carolina shared her ideas on how a small molecule regulates bacterial surface sensing and Brennen discussed how changing nanomotor concentration affects bacterial motility.
 
-![Brennen's CME talk](/assets/images/news/brennen-cme-talk-2024.jpeg)
-![Carolina's CME talk](assets/images/news/carolina-cme-talk-2024.jpeg)
+<div style="display: flex; gap: 10px;">
+    <img src="/assets/images/news/brennen-cme-talk-2024.jpeg" alt="Brennen's CME talk" width="300"/>
+    <img src="assets/images/news/carolina-cme-talk-2024.jpeg" alt="Carolina's CME talk" width="300"/>
+</div>
