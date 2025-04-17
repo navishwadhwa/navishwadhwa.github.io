@@ -10,7 +10,7 @@ twitter: WadhwaLab
 github: navishwadhwa
 scholar: ad98pWwAAAAJ&view_op=list_works&sortby=pubdate
 image: /assets/images/team/navish.jpg
-cv: /assets/pdfs/wadhwa-cv.pdf
+cv: /assets/pdfs/Wadhwa_Public_CV_Apr2025.pdf
 alum: false
 ---
 <!-- Ever since I learnt classical mechanics in high school, I have been amazed by the awesome power of Newton's laws and how much of the world can be understood by using different versions of these physical laws.  -->
