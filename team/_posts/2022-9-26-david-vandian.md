@@ -2,7 +2,7 @@
 layout: member
 title: "David Vandian"
 category: member 
-position: Undergraduate Student, ASU
+position: Former Undergraduate Researcher
 nickname: DavidV
 handle: davidv
 email: dvandian@asu.edu

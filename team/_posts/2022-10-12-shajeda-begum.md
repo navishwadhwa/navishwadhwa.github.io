@@ -2,7 +2,7 @@
 layout: member
 title: "Shajeda Begum"
 category: member
-position: Graduate Student
+position: Former Rotation PhD Student
 nickname: Shajeda
 handle: 
 email: sbegum3@asu.edu
@@ -11,5 +11,5 @@ github:
 scholar: 
 image: /assets/images/team/Shajeda.jpg
 cv: 
-alum: false
+alum: true
 ---
