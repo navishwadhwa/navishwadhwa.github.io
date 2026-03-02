@@ -1,28 +1,28 @@
 ---
 layout: paper
 title: "Fourier synthesis optical diffraction tomography for kilohertz rate volumetric imaging"
-year: "2023"
-shortref: "Brown et al., <i>arXiv</i> 2023"
+year: "2025"
+shortref: "Brown et al., <i>Science Advances</i> 2025"
 nickname: fourier-synthesis
-journal: "arXiv"
+journal: "Science Advances"
 volume:
 issue:
 pages:
-authors: "Brown P, Meneses L, Monakhova E, Pintuff A, Kruithoff R, Galati DF, Wadhwa N, Shepherd DP"
+authors: "Brown P, Jabbarzadeh N, Meneses L, Swanson K, Monakhova E, Pintuff A, Kruithoff R, Wadhwa N, Galati DF, Shepherd DP"
 image: /assets/images/papers/fourier-synthesis.png
-fulltext: https://arxiv.org/abs/2309.16912
+fulltext: https://www.science.org/doi/full/10.1126/sciadv.adr8004
 pdf:
-pdflink: https://arxiv.org/pdf/2309.16912
+pdflink: https://www.science.org/doi/epdf/10.1126/sciadv.adr8004
 github:
 pmid:
 pmcid:
 f1000:
 figshare:
-doi: 10.48550/arXiv.2309.16912
+doi: 10.1126/sciadv.adr8004
 category: paper
 published: true
-peerreview: false
-preprint: true
+peerreview: true
+preprint: false
 review: false
 tags: [biological physics, optics, physics]
 ---

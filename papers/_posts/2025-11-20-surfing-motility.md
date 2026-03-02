@@ -1,18 +1,18 @@
 ---
 layout: paper
-title: "Swashing Motility: A Novel Propulsion-Independent Mechanism for Surface Migration in <i>Salmonella</i> and <i>E. coli</i>"
-year: "2024"
-shortref: "Panich et al., <i>biorXiv</i> 2024"
+title: "Swashing Motility: A Propulsion-Independent form of Bacterial Surface Migration"
+year: "2025"
+shortref: "Panich et al., <i>J. Bacteriol.</i> 2025"
 nickname: surfing-motility
-journal: "biorXiv"
-volume:
-issue:
-pages:
+journal: "Journal of Bacteriology"
+volume: 207
+issue: 11
+pages: e00323-25
 authors: "Panich J, Dudebout EM, Wadhwa N, Blair DF"
 image: /assets/images/papers/swashing-vid.gif 
-fulltext: https://doi.org/10.1101/2024.08.21.609010
+fulltext: https://journals.asm.org/doi/full/10.1128/jb.00323-25
 pdf:
-pdflink: https://www.biorxiv.org/content/10.1101/2024.08.21.609010v2.full.pdf
+pdflink: https://journals.asm.org/doi/epub/10.1128/jb.00323-25
 github:
 pmid:
 pmcid:
@@ -21,8 +21,8 @@ figshare:
 doi: 10.1101/2024.08.21.609010
 category: paper
 published: true
-peerreview: false
-preprint: true
+peerreview: true
+preprint: false
 review: false
 tags: [bacterial motility, flagella, swarming, fermentation, surface tension]
 ---
