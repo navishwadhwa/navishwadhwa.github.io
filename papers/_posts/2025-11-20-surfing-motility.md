@@ -18,7 +18,7 @@ pmid:
 pmcid:
 f1000:
 figshare:
-doi: 10.1101/2024.08.21.609010
+doi: 10.1128/jb.00323-25
 category: paper
 published: true
 peerreview: true

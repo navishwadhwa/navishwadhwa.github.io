@@ -1,28 +1,28 @@
 ---
 layout: paper
 title: "Osmotic stress triggers fast and reversible PMF collapse in Escherichia coli"
-year: "2025"
-shortref: "Meneses et al., <i>J. bioRxiv.</i> 2025"
+year: "2026"
+shortref: "Meneses et al., <i>Biophys. J.</i> 2026"
 nickname: osmotic-stress
-journal: "bioRxiv"
+journal: "Biophysical Journal"
 volume: 
 issue: 
-pages: 
-authors: "Meneses L, Dudebout EM, Belser S, Yang J, Wadhwa N"
+pages: S0006-3495(26)00280-8
+authors: "Meneses L, Javi F, Dudebout EM, Belser S, Yang J, Wadhwa N"
 image:
-fulltext: https://pmc.ncbi.nlm.nih.gov/articles/PMC12485702/
+fulltext: https://www.cell.com/biophysj/fulltext/S0006-3495(26)00280-8
 pdf:
-pdflink: https://pmc.ncbi.nlm.nih.gov/articles/PMC12485702/pdf/nihpp-2025.09.25.678644v1.pdf
+pdflink: 
 github:
 pmid: 41040187
 pmcid: PMC12485702
 f1000:
 figshare:
-doi: 10.1101/2025.09.25.678644
+doi: 10.1016/j.bpj.2026.04.014
 category: paper
 published: true
-peerreview: false
-preprint: true
+peerreview: true
+preprint: false
 review: false
 tags: [proton motive force, osmotic stress, flagellar motor, mechanical stress, electrophysiology]
 ---

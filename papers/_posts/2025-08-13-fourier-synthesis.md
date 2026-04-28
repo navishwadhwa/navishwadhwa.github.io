@@ -5,9 +5,9 @@ year: "2025"
 shortref: "Brown et al., <i>Science Advances</i> 2025"
 nickname: fourier-synthesis
 journal: "Science Advances"
-volume:
-issue:
-pages:
+volume: 11
+issue: 33
+pages: eadr8004
 authors: "Brown P, Jabbarzadeh N, Meneses L, Swanson K, Monakhova E, Pintuff A, Kruithoff R, Wadhwa N, Galati DF, Shepherd DP"
 image: /assets/images/papers/fourier-synthesis.png
 fulltext: https://www.science.org/doi/full/10.1126/sciadv.adr8004
