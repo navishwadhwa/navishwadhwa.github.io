@@ -111,13 +111,18 @@ a.off {
 }
 
 .member-photo {
-	height: 20vw;
+	width: 16vw;
+	height: 16vw;
+	min-width: 100px;
 	min-height: 100px;
-	max-height: 225px;
+	max-width: 180px;
+	max-height: 180px;
+	object-fit: cover;
 }
 
 .member-name {
-	font-size: ceil($font-size-base*1.2);
+	font-size: $font-size-base;
+	overflow-wrap: anywhere;
 }
 
 @media all and (max-width: 800) {
