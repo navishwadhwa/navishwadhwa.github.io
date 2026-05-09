@@ -12,5 +12,7 @@ scholar:
 image: /assets/images/team/EricDudebout.jpg
 cv: /assets/pdfs/dudebout-resume.pdf
 alum: true
+departed: 2025-07-01
+after: "MD/PhD student at the University of Arizona College of Medicine"
 ---
 I am a graduate student in Arizona State University’s 4+1 program in Biochemistry. Previously, I completed an undergraduate degree majoring in biochemistry at Barrett, The Honors College. I am interested in research pertaining to the intersection of computational modeling and biological systems. I believe that through models, the biological world can be better understood, allowing for insight into novel pathways and interactions. As such, I hope, through experimentation and the collecting and use of data, to investigate the mechanisms of motility and stimuli perception within microorganisms.

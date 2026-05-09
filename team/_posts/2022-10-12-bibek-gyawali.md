@@ -12,6 +12,8 @@ scholar:
 image: /assets/images/team/bibek.jpg
 cv: 
 alum: true
+departed: 2023-12-08
+after: "PhD student in Physics at ASU"
 ---
 
 I'm a physics graduate excited about research at the intersection of Physics and Biology. 

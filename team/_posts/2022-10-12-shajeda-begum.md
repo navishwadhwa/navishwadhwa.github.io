@@ -12,4 +12,6 @@ scholar:
 image: /assets/images/team/Shajeda.jpg
 cv: 
 alum: true
+departed: 2025-05-25
+after: "PhD student with Rizal Hariadi at ASU"
 ---
