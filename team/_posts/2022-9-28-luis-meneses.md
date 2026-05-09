@@ -2,7 +2,7 @@
 layout: member
 title: "Luis Meneses"
 category: member 
-position: Research Technician
+position: PhD Student
 nickname: Luis
 handle: luis
 email: lemenese@asu.edu
